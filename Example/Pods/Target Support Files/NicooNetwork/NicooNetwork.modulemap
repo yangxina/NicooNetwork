@@ -1,0 +1,6 @@
+framework module NicooNetwork {
+  umbrella header "NicooNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NicooNetwork_Tests {
+  umbrella header "Pods-NicooNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

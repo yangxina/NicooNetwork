@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NicooNetwork_Example' do
+  pod 'NicooNetwork', :path => '../'
+  pod 'MBProgressHUD','~> 0.9.2'
+  target 'NicooNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
