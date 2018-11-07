@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07FE687421919E740089F0FB /* CLAlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE687221919E740089F0FB /* CLAlertMessages.swift */; };
 		07FE687521919E740089F0FB /* MacroDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE687321919E740089F0FB /* MacroDefine.swift */; };
 		07FE687A21919E7C0089F0FB /* CodableUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE687721919E7C0089F0FB /* CodableUtil.swift */; };
 		07FE687B21919E7C0089F0FB /* YTSGBaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE687821919E7C0089F0FB /* YTSGBaseAPI.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07FE687221919E740089F0FB /* CLAlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLAlertMessages.swift; sourceTree = "<group>"; };
 		07FE687321919E740089F0FB /* MacroDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroDefine.swift; sourceTree = "<group>"; };
 		07FE687721919E7C0089F0FB /* CodableUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableUtil.swift; sourceTree = "<group>"; };
 		07FE687821919E7C0089F0FB /* YTSGBaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSGBaseAPI.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 		07FE687121919E740089F0FB /* MacroDefine */ = {
 			isa = PBXGroup;
 			children = (
-				07FE687221919E740089F0FB /* CLAlertMessages.swift */,
 				07FE687321919E740089F0FB /* MacroDefine.swift */,
 			);
 			path = MacroDefine;
@@ -153,7 +150,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* NicooNetwork.app */,
+				607FACD01AFB9204008FA782 /* NicooNetwork_Example.app */,
 				607FACE51AFB9204008FA782 /* NicooNetwork_Tests.xctest */,
 			);
 			name = Products;
@@ -250,7 +247,7 @@
 			);
 			name = NicooNetwork_Example;
 			productName = NicooNetwork;
-			productReference = 607FACD01AFB9204008FA782 /* NicooNetwork.app */;
+			productReference = 607FACD01AFB9204008FA782 /* NicooNetwork_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* NicooNetwork_Tests */ = {
@@ -409,7 +406,6 @@
 				07FE688621919F7A0089F0FB /* BookReformer.swift in Sources */,
 				07FE688521919F7A0089F0FB /* BooksHotListAPI.swift in Sources */,
 				07FE687C21919E7C0089F0FB /* YTSGService.swift in Sources */,
-				07FE687421919E740089F0FB /* CLAlertMessages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

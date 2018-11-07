@@ -41,8 +41,8 @@ public protocol NicooAPIManagerParamSourceDelegate: class {
 
 open class NicooBaseAPIManager: NSObject {
 
-    static var kTZAPIBaseManagerRequestId = "kTZAPIBaseManagerRequestId"
-    static var kTZDefaultErrorMessage = "网络请求失败!"
+    static var kAPIBaseManagerRequestId = "kAPIBaseManagerRequestId"
+    static var kDefaultErrorMessage = "网络请求失败!"
 
     public weak var delegate: NicooAPIManagerCallbackDelegate?
     public weak var paramSource: NicooAPIManagerParamSourceDelegate?
@@ -53,7 +53,7 @@ open class NicooBaseAPIManager: NSObject {
      baseManager是不会去设置errorMessage的，派生的子类manager可能需要给controller提供错误信息。所以为了统一外部调用的入口，设置了这个变量。
      派生的子类需要通过extension来在保证errorMessage在对外只读的情况下使派生的manager子类对errorMessage具有写权限。默认提示语是“网络故障!”
      */
-    public var errorMessage: String = NicooBaseAPIManager.kTZDefaultErrorMessage
+    public var errorMessage: String = NicooBaseAPIManager.kDefaultErrorMessage
     public var errorType: NicooAPIManagerErrorType = .defaultError
     public var response: NicooURLResponse!
     private var isReachable: Bool {
@@ -231,7 +231,7 @@ open class NicooBaseAPIManager: NSObject {
                     }
                     self.requestIdList.append(requestId)
                     var newParams: [String: Any] = apiParams ?? [String: Any]()
-                    newParams[NicooBaseAPIManager.kTZAPIBaseManagerRequestId] = requestId
+                    newParams[NicooBaseAPIManager.kAPIBaseManagerRequestId] = requestId
                     self.afterCallingAPI(params)
                     return requestId
                 } else {
@@ -403,7 +403,7 @@ open class NicooBaseAPIManager: NSObject {
 
     func cleanData() {
         self.fetchedRawData = nil
-        self.errorMessage = NicooBaseAPIManager.kTZDefaultErrorMessage
+        self.errorMessage = NicooBaseAPIManager.kDefaultErrorMessage
         self.errorType = .defaultError
     }
 

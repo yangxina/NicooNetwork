@@ -11,6 +11,7 @@ import MBProgressHUD
 import NicooNetwork
 
 class ViewController: UIViewController {
+    
     fileprivate let cellReuseIdentifer = "BookTableViewCell"
     lazy fileprivate var tableView: UITableView = {
         let tableView = UITableView()

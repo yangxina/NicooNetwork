@@ -11,28 +11,7 @@ import UIKit
 // MARK: - AppKey
 
 public enum APPKeys {
-    /// WeChat APPid
-    #if DEVELOPMENT
-    public static let kWeChatAppId = "wxbf71708d20976b86"
-    #else
-    public static let kWeChatAppId = "wx7490260081085f6b"
-    #endif
-    /// 支付宝appid
-    public static let kAlipayAppId = "2017121900974273"
-    /// QQ appid
-    public static let kQQAppId = "1105405811"
-    /// 高的地图appid
-    #if DEVELOPMENT
-    public static let kAMAppKey = "b92482ab31952077363e510a8a1fa9ca"
-    #else
-    public static let kAMAppKey = "675dbf1aee5765233ff3978aa1582e9a"
-    #endif
-    /// 友盟
-    public static let kUMengAppKey = "58b4e1433eae2520670003f4"
-    public static let kUMengChannelId = "App Store"
-    /// sina
-    public static let kSinaAppkey = "73772033"
-    public static let kSinaAppSecurity = "424a9c7fb70713f36568ffe8699cebdf"
+    
 }
 
 // MARK: - User Defaults keys
@@ -48,20 +27,11 @@ public extension UserDefaults {
 // MARK: - 全局静态常量
 
 public struct ConstValue {
-    /// 本appurlscheme
-    #if DEVELOPMENT
-    public static let kCLMAppScheme = "ytsg10"
-    #else
-    public static let kCLMAppScheme = "ytsg"
-    #endif
     public static let kScreenHeight = UIScreen.main.bounds.size.height
     public static let kScreenWdith = UIScreen.main.bounds.size.width
-    public static let kReadingFromBookShelfEventId = "readingFromBookShelf"
-    public static let kDefaultFontName = "PingFangSC-Light"
-    public static let kDefaultTableSeparatorColor = "#F4F4F4"
+
     #if DEVELOPMENT
     public static let kCLBaseUrlString = "http://119.23.205.178:8077"
-    //    static let kCLBaseUrlString = "http://192.168.28.10:18081"
     #else
     public static let kCLBaseUrlString = "http://m.ytsg.cn" // 基础地址
     #endif
@@ -83,18 +53,7 @@ public extension Notification.Name {
     static let kUserBasicalInformationChanged = Notification.Name("kUserBasicalInformationChanged")
     /// 用户别踢下线或者token失效的回调
     static let kUserBeenKickedOutNotification = Notification.Name("kUserBeenKickedOutNotification")
-    /// 微信回调结果成功
-    static let kWechatReturnWithSuccessNotificaiton = Notification.Name("wechatReturnSuccess")
-    /// 微信回调结果失败
-    static let kWechatReturnWithFailureNotification = Notification.Name("wechatReturnFailure")
-    /// 支付宝支付成功
-    static let kAlipayReturnWithSuccessNotification = Notification.Name("alipayReturnSuccess")
-    /// 支付宝支付失败
-    static let kAlipayReturnWithFailureNotification = Notification.Name("alipayReturnFailure")
-    /// 支付宝授权失败
-    static let kAlipayReturnWithAuthorizationFail = Notification.Name("alipayAuthorizationFail")
-    /// 逾期消息提醒通知
-    static let kOverdueBookMsgReminder = Notification.Name("OverdueMsgReminder")
+   
 }
 
 // MARK: - Function
@@ -104,4 +63,25 @@ public func NicooLog(_ item: Any, _ file: String = #file,  _ line: Int = #line, 
     #if DEBUG
     print(file + ":\(line):" + function, item)
     #endif
+}
+
+public struct CLAlertMessages {
+    
+    // MARK: - 全局
+    
+    public static let kNetworkErrorMessage = "网络请求失败!"
+    public static let kRequestFailedUnknownError = "数据错误!"
+    public static let kSearchEmptyData = "发现0条数据!"
+    public static let kBeenKickedOutAlertMsg = "账号已在其它设备登录，请确认是否本人操作！"
+    /* 相机 */
+    public static let kAllowCamera = "请在iPhone的“设置－隐私－相机”选项中，允许云书屋访问您的相机。"
+    /* 相册 */
+    public static let kAllowPhoto = "请在iPhone的“设置－隐私－照片”选项中，允许云书屋访问您的照片。"
+    /* 分享 */
+    public static let kHaveNotInstallWechat = "未安装微信客户端!"
+    public static let kHaveNotInstallQQ = "未安装QQ客户端!"
+    public static let kHaveNotinstallSina = "未安装新浪微博客户端!"
+    public static let kShareFail = "分享失败!"
+    public static let kVideoPlayNetworkMessage = "当前为非wifi环境，播放将产生流量费用，是否继续?"
+    
 }
