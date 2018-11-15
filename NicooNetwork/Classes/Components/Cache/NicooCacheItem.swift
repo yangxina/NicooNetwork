@@ -43,7 +43,7 @@ class NicooCacheItem: NSObject, NSCoding {
     required init?(coder aDecoder: NSCoder) {
        
         if let key = aDecoder.decodeObject(forKey: "key") as? String {
-             self.key = key
+            self.key = key
         }
         if let num = aDecoder.decodeObject(forKey: "storeTime") as? NSNumber {
             self.storeTime = num

@@ -33,8 +33,11 @@ open class YTSGBaseAPI: NicooBaseAPIManager, NicooAPIManagerProtocol, NicooAPIMa
         return .get
     }
     
+   /// 缓存
+   ///
+   /// - Returns: 是否需要缓存
    open func shouldCache() -> Bool {
-        return false
+        return true
     }
     
     

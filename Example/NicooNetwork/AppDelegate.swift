@@ -11,6 +11,7 @@ import UIKit
 import NicooNetwork
 @UIApplicationMain
 
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
@@ -52,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 }
 
-// MARK: - TZServiceFactoryProtocol
+// MARK: - NicooServiceFactoryProtocol
 extension AppDelegate: NicooServiceFactoryProtocol {
     
     /// 自定义的服务
@@ -75,4 +76,5 @@ extension AppDelegate: NicooServiceFactoryProtocol {
         }
     }
 }
+
 

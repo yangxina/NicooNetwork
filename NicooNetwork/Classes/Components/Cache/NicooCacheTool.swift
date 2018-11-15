@@ -8,6 +8,7 @@
 
 import UIKit
 import YYCache
+import CommonCrypto
 
 /**
  这是一个单列的模式缓存工具类，处理所有存储和获取缓存的逻辑。
@@ -86,13 +87,13 @@ class NicooCacheTool: NSObject {
 
 
     // MARK: - Private Functions
-
+    
     /**
      通过url和参数拼接成key，并且key需要要经过base64编码
-
+     
      - parameter            url: http方法的url
      - parameter            parameters: url参数
-
+     
      - returns:             返回生成的key
      */
     fileprivate class func generateKey(_ url: String, parameters: [String: Any]?) -> String {
@@ -103,13 +104,12 @@ class NicooCacheTool: NSObject {
                 for aKey in para.keys {
                     key.append("aKey=\(para["\(aKey)"]!)&")
                 }
-//                key = key.substring(to: key.index(key.endIndex, offsetBy: -1))
                 key = String(key[..<key.index(key.endIndex, offsetBy: -1)])
             }
         }
-        let data = key.data(using: String.Encoding.utf8)
-        return data!.base64EncodedString()
+        return key.md5()
     }
+
 
 
     /**
@@ -127,4 +127,21 @@ class NicooCacheTool: NSObject {
     }
 
 
+}
+
+extension String {
+    
+    func md5() -> String {
+        let str = self.cString(using: String.Encoding.utf8)
+        let strLen = CUnsignedInt(self.lengthOfBytes(using: String.Encoding.utf8))
+        let digestLen = Int(CC_MD5_DIGEST_LENGTH)
+        let result = UnsafeMutablePointer<UInt8>.allocate(capacity: 16)
+        CC_MD5(str!, strLen, result)
+        let hash = NSMutableString()
+        for i in 0 ..< digestLen {
+            hash.appendFormat("%02x", result[i])
+        }
+        free(result)
+        return String(format: hash as String)
+    }
 }
