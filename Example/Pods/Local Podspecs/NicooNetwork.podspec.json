@@ -1,9 +1,9 @@
 {
   "name": "NicooNetwork",
-  "version": "0.1.0",
-  "summary": "A short description of NicooNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/504672006@qq.com/NicooNetwork",
+  "version": "0.1.4",
+  "summary": "Network for Swift 5",
+  "description": "swift4. 基于 Alamofire 封装的网络请求框架",
+  "homepage": "https://github.com/yangxina/NicooNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,19 +12,21 @@
     "504672006@qq.com": "yangxin@tzpt.com"
   },
   "source": {
-    "git": "https://github.com/504672006@qq.com/NicooNetwork.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yangxina/NicooNetwork.git",
+    "tag": "0.1.4"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "source_files": "NicooNetwork/Classes/**/*",
   "dependencies": {
     "Alamofire": [
-
+      "4.9.1"
     ],
     "YYCache": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

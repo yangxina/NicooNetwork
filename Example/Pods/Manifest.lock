@@ -1,8 +1,8 @@
 PODS:
-  - Alamofire (4.7.3)
+  - Alamofire (4.9.1)
   - MBProgressHUD (0.9.2)
-  - NicooNetwork (0.1.0):
-    - Alamofire
+  - NicooNetwork (0.1.4):
+    - Alamofire (= 4.9.1)
     - YYCache
   - YYCache (1.0.4)
 
@@ -11,7 +11,7 @@ DEPENDENCIES:
   - NicooNetwork (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - MBProgressHUD
     - YYCache
@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  NicooNetwork: 70de12ed4d343b76e7f28534faf99ea3f24ec902
+  NicooNetwork: f823c7c39320b1d55c3aadcc47666919eee1e4b6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: e67f1813f3f591a5a9c21ac1f20ba40a1bbc628b
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.8.4

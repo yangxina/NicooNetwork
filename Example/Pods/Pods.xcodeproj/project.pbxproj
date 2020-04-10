@@ -7,738 +7,704 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA367443C7C5CC005D6DB5876B278AD /* Timeline.swift */; };
-		143FA8BE3178A4AFCC5B7F4013CE5737 /* Pods-NicooNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959ADC4CB51F8A0D2F527FBA1D2BF1C /* Pods-NicooNetwork_Example-dummy.m */; };
-		17F15FB0FDEEB1C5F880B26F8DAC5BD6 /* NicooAPIManagerValidatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95EA9BEC0FE60D34B9C2C39C7D30117 /* NicooAPIManagerValidatorDelegate.swift */; };
-		1B5F8FB686F62042D0AC64457ED6911E /* Pods-NicooNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD551A7C63F18F16B33DAB7C6A90C279 /* Pods-NicooNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC0145165A97294E1DDF00A6621C906 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CFFFFF053C51CB1242CA745C00F52BB /* NicooRequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C10D54CC551A4C95BEAE9BA439EA9 /* NicooRequestGenerator.swift */; };
-		1D3311B18D2A83440AD2FBC683578BF0 /* NicooURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54236F1973AADBD1A55449460461409A /* NicooURLResponse.swift */; };
-		218D28D12CC11BBB5EC567DDA8FEAB79 /* NicooServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A19901E73EF1175FC1614A33CFD485 /* NicooServiceFactory.swift */; };
-		21AD8A9207313B8C272167E0900E736F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A9003A7F05CF2B868936D2CD85A38D /* Alamofire.framework */; };
-		21F82308E9E0AF5690D5488417D8D14C /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A655B1655B7C7071E14CEB2E5737CB2D /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25B63BB8EAA5A6F2C7B8CDAF741D6943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		26EB6EE7BFBC56231AB5BDFBEFD3A92A /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F175C5B7126513B94CDDF14170ED98EC /* YYDiskCache.m */; };
-		278EB673EB6BEF367D2E48E89205850C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F988C6F3ED61A01C12260A1B7E62914 /* UIKit.framework */; };
-		2816B08D8287B8EAA6AD7E0596436F4D /* Pods-NicooNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9E98227F531E119A9918B80F5AB4EB /* Pods-NicooNetwork_Tests-dummy.m */; };
-		29B1CAE2E425ED7DD84E3DFE1F6CEE00 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 20264879869E8F419EC59485B5EFDF7E /* YYMemoryCache.m */; };
-		2C93AE6E410A1AF22F0CE5A3DD599431 /* NicooCacheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F632DF50C303382DF23E8CF06C1898B7 /* NicooCacheTool.swift */; };
-		353ED5C9B0AFC80684B9B0C09DECA430 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750F79DDAE273F6E43135042836F0296 /* YYCache.framework */; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38E839C58E980D42446B9E66EB0101 /* TaskDelegate.swift */; };
-		417939B2DAF3D4A0221A5975D1056F69 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD29E81DB0AD738EE9E1753B349C240 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECE10A23EBEC997639CF45A163A830 /* Request.swift */; };
-		57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2FDABF75A7277ACF629C8216172BC /* MBProgressHUD-dummy.m */; };
-		588746856C55EA4A8EB16F7DA410CE57 /* NicooAPIProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C834B3061E004E5ECFF091BB49FC2B3 /* NicooAPIProxy.swift */; };
-		5CFEC2BCE5CEA754F0924A7F06EDC17F /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9AABA1AA4B4E05143ADE668E216E5A /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DEAA6393D7C01BE21C33C5C11B1DD5 /* DispatchQueue+Alamofire.swift */; };
-		61C3501D39AC6850F1528D36FCEA7F1B /* NicooAPIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF524C733384A5645139AE44930220D /* NicooAPIManagerProtocol.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC1ECEC901B3F7FBC28353A9F47B6D /* ServerTrustPolicy.swift */; };
-		654C2CDA8579AFC11BB04BB5274E97D4 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC35C1015B6DC723163D45662D7068F /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67AE30C0965C3D4043194A285EF5249D /* NicooAPIManagerDataReformProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56681B31ABC008C6E3F1518992708CA /* NicooAPIManagerDataReformProtocol.swift */; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		797B3C6631F617C2D5E24DC81F1743B5 /* NicooNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3BF44FD0467605FA956B5E131CF18 /* NicooNetwork-dummy.m */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDFE8AFBBBAA0E2309BE1EAE92ABFCA /* SessionDelegate.swift */; };
-		7D7CAE7ED63D437A122825549D4F25E9 /* NicooNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8667072A7E8B30BA370DAFB6569EFA /* NicooNetworkManager.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8548C9EE9D9573DC63AC7388768A7 /* Result.swift */; };
-		834B921A76DA4AC82104E28337FB276C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		842D6859458A5966F044E8C65BF248C4 /* NicooNetworkingConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F77889C80DD88A71C0CDBE04DDF879 /* NicooNetworkingConfigurationManager.swift */; };
-		93140F171F2C7223485A329789E2ED7D /* NicooAPIManagerInterceptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F771A84B34213240BC3DF85B5670201A /* NicooAPIManagerInterceptorProtocol.swift */; };
-		94AACBEE54B3A04B08B7407F6B0EB008 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A0683B43B9ABA8D2A96260E60F276780 /* YYCache.m */; };
-		9A43775BDFDE8F8AF6814707B1AA9CC4 /* NicooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FD2732BA277D32589548E26072FBA /* NicooService.swift */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987DAA30D508B8FD7F0E3EFC6E26800 /* AFError.swift */; };
-		A266AF10A00DC592762445ED4FA21E9A /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7DA61E6033E9E490BE51C4D83486E /* YYCache-dummy.m */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F1FA33DBC5F7FC128354F92B532C9 /* NetworkReachabilityManager.swift */; };
-		A63305C6BB49C7B481B561DCC2797B0B /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 685C5FD14ADF6BA7D327C7517D27652F /* YYKVStorage.m */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D130B29E52179DA7621B75A214A6325 /* Alamofire-dummy.m */; };
-		AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C11474FAB9258A7A88B97F26F8007C3 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2915B046E660B0653B58D148BB1E3898 /* SessionManager.swift */; };
-		B5C5DFF92980628E50C82C5A4FA1E652 /* NicooCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD32A8C3F538FE77379855C81D026BB /* NicooCacheItem.swift */; };
-		B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD5358E5BF4F7D8C43CD5C97F322C9F /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F1845540D3509A1C1486260B00891 /* MultipartFormData.swift */; };
-		BB37E3BE33B639A77271F9DB8B5775A8 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 350ECBDB08857479DD3AF8242BEB1279 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA599BBDB94BDE596802D80161B5A3 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD5E3DF0F1398DE90E5FB038B6E9CD /* ParameterEncoding.swift */; };
-		C0B7CA61785F9E757C43CCEDFB94A372 /* NicooNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5628C215BCF9959D202125F0E16BC30A /* NicooNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1BACB500ACD49E595F864E54CA8B638 /* Pods-NicooNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0804DFDCD966468F33CFF5FF8963784B /* Pods-NicooNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA5F9F95BFD2DE63C48218D7258EB7 /* Response.swift */; };
-		CF00106FB62C15E83985C866A5EADE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		CF79039E5D7F31827530DECC7BC44671 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330FBE4272E66FF85F26D97074438A5E /* CoreFoundation.framework */; };
-		D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0EB19A9C18E708B5639E9731634D16 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4AC26FB387427964538FA5FCEA4A8A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E634F8E021D5689099C1B2F677D75093 /* CoreGraphics.framework */; };
-		E4FEA55FA6FF32FD2908D71751C1470E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60EAE3474BB3A00004CB6F708168EC3 /* QuartzCore.framework */; };
-		ECBA1F4D70AF4600563FD39112D5997B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0577B17FF03135C08C3C52AD3610DFC /* Notifications.swift */; };
-		F172515253B612E7975C344C8CF25A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */; };
-		F29DBF6ACFB839E8633CD81485454CF8 /* NicooBaseAPIBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D10D111A14DD5756095D97255B5806 /* NicooBaseAPIBaseManager.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E967076BFCEC4E073FCA252754015350 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF433C272C3B900855BFFC056DBC4ED /* Alamofire.swift */; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE61C449343289CB0D154E53D1F5DE /* ParameterEncoding.swift */; };
+		0E52D41C73AA1E1BCA9921B7B615889A /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A778606EFB5DB4F12AA887E37B56AD /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C4AB507F65AFD9408219CA286D3EF /* Notifications.swift */; };
+		157D9058E1726E1C5B550E4A8DD52214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85998B8387E0093AFDBAA55FBD0CDC22 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49EB4B08E246F3417708368F33A0F7 /* MultipartFormData.swift */; };
+		1C140A9C9A66C2EA280B239939A21FEB /* NicooNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE60A5E6BCA3A98C8341085D73F17ABE /* NicooNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21603D7372E4A29D429CE38AC413FBA7 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3691AA25B09D4116BA291D32A82FB2D /* YYKVStorage.m */; };
+		24309441E68DAE426D0A61C8F7ED79EB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8F21C7131A4147785E8FE9B34FCEA4 /* CoreFoundation.framework */; };
+		2BE5E6A40179A769707979362AE865B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ABE05C2978A29147412853A0F4E1ED /* UIKit.framework */; };
+		2C568D4824B4DB3A642A05EAEE6F1587 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC8E48DA87C0376EDE5E2F2D3A19C48 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16E7D80655759D565279B1FBF38E98 /* SessionDelegate.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25064350D6FD694851A610F43DD254B /* NetworkReachabilityManager.swift */; };
+		3D0DCB8F40F85D137601B55DA5482172 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA9F46AE3D164B1BE4CF743B8EE66BC /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4228EA069538DD40CD3ABE26985BAB1B /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033C84E241F82AE79402D931AE54E57D /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499D77538FD5D5BB8B06EDCD325B72C4 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D33151810569004A266C17B16566A908 /* YYDiskCache.m */; };
+		4BBA51EF9F37978F6C25335D1E57A512 /* NicooAPIManagerDataReformProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF936ABD0BF7EF57ED8AE91A7C9761E5 /* NicooAPIManagerDataReformProtocol.swift */; };
+		4C6A004D1F8D30BFC7B8297CB6CDFEBE /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDCFD958AD5410A6DCE70B5E9963232 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A2F2026E31F23E42F5634D9595B555 /* NicooNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABAD2EBFD4D316133C9FB0F586B33E /* NicooNetworkManager.swift */; };
+		50F4B1F6150E205D8F8E43A0DA59AEE4 /* NicooAPIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6275DD797572505F0A827599A5CEC /* NicooAPIManagerProtocol.swift */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE26CF153E215B5BA25BD3C0238AA5 /* Validation.swift */; };
+		6140EC21C0A99DF968D4FC24AD947214 /* NicooAPIManagerInterceptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD78CB5FC97FC3B9AC3838D3AB3B805 /* NicooAPIManagerInterceptorProtocol.swift */; };
+		61CCEE5AC3150716F27CAEF3FBEC1F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636C3B4EBD2860D07DEE8FBCD26671B /* Result.swift */; };
+		64AD5C6384E71B28E5B8262A017F60CC /* NicooCacheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74699CE97EDF7E5530DDAB7DF6A446A6 /* NicooCacheTool.swift */; };
+		654E109DBE643D30CA540CB991C2446E /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDF2BEBEA1F233D4EE028570DD6C6E /* YYMemoryCache.m */; };
+		6E1E402CB13DFE722897DA3E77DEBD51 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C03BB8D099BB78F74190893704443B8 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E36C785301064939F23C267568F9B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9860D473284DF47466F520522C672F9D /* CoreGraphics.framework */; };
+		74F1549435206CBC53D621D04A28A6F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404F240145E306A76A807FCCD697D293 /* QuartzCore.framework */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		77B7706399D46C2039A5C9A425CE4C4C /* NicooCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5D0F1E5715927BE3E53F3FA917A3F /* NicooCacheItem.swift */; };
+		7A9663DF6F16076C7AEA4EF9B9B7780E /* Pods-NicooNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCB5F8784BA8361E0F5FA8832F2569D /* Pods-NicooNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A85700FA5CBE82AE2136BF2697EA2 /* AFError.swift */; };
+		888BD3E757F92FC138E65026A74821A2 /* Pods-NicooNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE57ADB51743A6C3C925EE01D7BA7F3 /* Pods-NicooNetwork_Tests-dummy.m */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0BE27456BFEF546B4F02699A71B8DD /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C5019BF25D4887B8F92C49CB7FBECD /* Timeline.swift */; };
+		95F63E693F9F4900BE8D25A2B20C17EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB35C8172E280986229E7CAC46C128E1 /* MBProgressHUD-dummy.m */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78128A6C26C5AD805C299DD6B277C450 /* Request.swift */; };
+		9DC4A84330BDEB3994FDB6E8A14C5924 /* NicooRequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947A49FD843ADF193706DD07B1723B0A /* NicooRequestGenerator.swift */; };
+		A0C547BCE877AAE21B782622C90EEF42 /* NicooNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE8228574E2DDA9B5165008DC40D31 /* NicooNetwork-dummy.m */; };
+		AB0FF807BF40205CB44077AF76305DB9 /* NicooAPIManagerValidatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A839659911D5191F451F1F8521F77F /* NicooAPIManagerValidatorDelegate.swift */; };
+		ACD704935E4B7157CC41A6D89F3E3F54 /* NicooServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049C76C633F8B42DDACA1377275BD03 /* NicooServiceFactory.swift */; };
+		AD67ADE6CAFBFDDFB0511681F227E6AC /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3305CD3B1D5CA5995A1BC83FECDD4C33 /* YYCache.m */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29589BEA094F1BB2946D2718E7759F3 /* TaskDelegate.swift */; };
+		BB65E73A3D4E545242AB2CA25AF44698 /* NicooBaseAPIBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB317B9F70AF5AC1E8B3D4215AA272FE /* NicooBaseAPIBaseManager.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935DDCEB4DF237446A5BA5F8A95E1BB /* Alamofire.swift */; };
+		BF2CC708BF5D2F307570D7A49691C29B /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A78BE95788A5A93273965EE36A638C44 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476AE57F40A67F4F7E252965D670C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		C4FF3697E145269ECB18E3B328AB5212 /* NicooAPIProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB1945EDFC968D5B9D287612A34436 /* NicooAPIProxy.swift */; };
+		CC482F33D9FB85395E2F9BD62619F3C6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC81F7C6B9EF0FF84E75715C7CAA914 /* Alamofire.framework */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470E4BB4065971C66206CED1CE55B98 /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E60C2C201645B3AD0842AE7D1D36A5 /* Response.swift */; };
+		D84FE4BF4A06FB1D452B08EE66FDAB45 /* Pods-NicooNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F89EA46571CC2C537533368894B3EE4A /* Pods-NicooNetwork_Example-dummy.m */; };
+		DF5D6DD808182199242573C3EEC1AD06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DC48462D0154DBE65BD13A89B64CD /* ResponseSerialization.swift */; };
+		EB518C2E11D5F9547CA55906D9FA5291 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F63456D10EE54DFF3DB7246651F0EF4 /* YYCache.framework */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02D07A1124914750AA62E3B1EB2889 /* ServerTrustPolicy.swift */; };
+		F256B8DD4AA1773E0BBB13701AC1A8AE /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0222401470D867F312E1B1AFEF78C7 /* YYCache-dummy.m */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA3C3CD24E2F61A26D5B3EB33DEC92A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B59DD007DF9A4665ECBE133B7604AC /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D60FE785C7ACFA41E7231ADD17132A86 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC37FD39999CDA054737FDD093FDB2F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */; };
+		FD8FCDE47E69ABB20AB6CF11562CB48B /* NicooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F2C210A0CD5AEDFCB5238F92965B0 /* NicooService.swift */; };
+		FE386E0C8E2DF6D5774B48180AAA3345 /* NicooURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F73B467E0CE36DB8A35FA7E29F965 /* NicooURLResponse.swift */; };
+		FEC55793F579BB5636A6CE0025E1AABF /* Pods-NicooNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CACE8F53C05D508DB1180EB7EBEDACDA /* Pods-NicooNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED73AFB0BC226A03B5B715EDD97E9C2 /* NicooNetworkingConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D48C8DBD08C1596FEB22FD1F28BE7 /* NicooNetworkingConfigurationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		374CE790724F59CB582E9519B5739E09 /* PBXContainerItemProxy */ = {
+		295DEF45337617A50D14E4BD4B75F345 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CF46E2E0BCC4D3F4C96F37A45D01AF2;
-			remoteInfo = NicooNetwork;
+			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
+			remoteInfo = YYCache;
 		};
-		4B77E6FC675BDA430ACEE4CEBB9E6573 /* PBXContainerItemProxy */ = {
+		428065580E6A7F53AC818C7358E2EE94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6B1714E816AE794962516E2ECBB40A5A;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		48B59DA48237477A64A916C01C11034B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		677B8DA87D72089245143580ED0FF667 /* PBXContainerItemProxy */ = {
+		56F97FCB6C70792E6B4CB839FABC4ECE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteGlobalIDString = 50123C0D9CBE46DB88A00291CDFADB60;
+			remoteInfo = NicooNetwork;
+		};
+		A13B6355CF1FE4E98A9A9BC8C8279D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
+			remoteInfo = YYCache;
+		};
+		C5C9958F32881A376050734E4B4E047C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		827AC81A65EBB3745247B7B071818450 /* PBXContainerItemProxy */ = {
+		F92407663890284510DB8659CDD93DE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 630B9C42E03EE8A24037A5E59AFB1925;
+			remoteGlobalIDString = 9F0764AA4C3054A1A3CFA2986E03B20B;
 			remoteInfo = "Pods-NicooNetwork_Example";
-		};
-		933998F5B46D2A2E08DD88F958C30690 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 32CBA0D2B34AFA31313BC6574C6FFD3A;
-			remoteInfo = YYCache;
-		};
-		CF0E5EF0CEE51AC3389398A9D998B692 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 32CBA0D2B34AFA31313BC6574C6FFD3A;
-			remoteInfo = YYCache;
-		};
-		F6A332B9909C713F9DD344F792F9E444 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
-			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00843A16CF1C74B8D32B9D264CDFB9E1 /* Pods-NicooNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		00EC2D9C9880D7098727C1A9C1980A98 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		0319D7FD97044AE211BB1BC56384390F /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
-		045DE8A8013E133AABE010E355EA3E7F /* NicooNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooNetwork.modulemap; sourceTree = "<group>"; };
-		04C663CE38829AE0A31C17E73FFE7B07 /* Pods-NicooNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0804DFDCD966468F33CFF5FF8963784B /* Pods-NicooNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0C11474FAB9258A7A88B97F26F8007C3 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		0FD32A8C3F538FE77379855C81D026BB /* NicooCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooCacheItem.swift; sourceTree = "<group>"; };
-		1298409DCD81DDD49D2C849735F4B5F6 /* Pods-NicooNetwork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooNetwork_Example-resources.sh"; sourceTree = "<group>"; };
-		13A19901E73EF1175FC1614A33CFD485 /* NicooServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooServiceFactory.swift; sourceTree = "<group>"; };
-		1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1FBE841F421CC2865E9139AC0BDCF17F /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20264879869E8F419EC59485B5EFDF7E /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
-		25CC1ECEC901B3F7FBC28353A9F47B6D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		25F7DA61E6033E9E490BE51C4D83486E /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
-		2915B046E660B0653B58D148BB1E3898 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		2E7D6D645F50D2E43CD8DE0D1F04E1D3 /* Pods_NicooNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicooNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC35C1015B6DC723163D45662D7068F /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		330FBE4272E66FF85F26D97074438A5E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		350ECBDB08857479DD3AF8242BEB1279 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
-		36DEAA6393D7C01BE21C33C5C11B1DD5 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		38F2FDABF75A7277ACF629C8216172BC /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		3B8F1845540D3509A1C1486260B00891 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		3CD29E81DB0AD738EE9E1753B349C240 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
-		3E9AABA1AA4B4E05143ADE668E216E5A /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
-		440873C090D816BA92C80D022EBC213E /* Pods-NicooNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4959ADC4CB51F8A0D2F527FBA1D2BF1C /* Pods-NicooNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooNetwork_Example-dummy.m"; sourceTree = "<group>"; };
-		4AF524C733384A5645139AE44930220D /* NicooAPIManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerProtocol.swift; sourceTree = "<group>"; };
-		4D8667072A7E8B30BA370DAFB6569EFA /* NicooNetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooNetworkManager.swift; sourceTree = "<group>"; };
-		4FCA25B3DAC293E287AFD080FC0E0A7F /* Pods-NicooNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
-		54236F1973AADBD1A55449460461409A /* NicooURLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooURLResponse.swift; sourceTree = "<group>"; };
-		5628C215BCF9959D202125F0E16BC30A /* NicooNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooNetwork-umbrella.h"; sourceTree = "<group>"; };
-		5769378A24454A47197B5DED0B4279B6 /* Pods-NicooNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		577421769DE6BCB3F631E106E68B84FF /* Pods-NicooNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		593FD2732BA277D32589548E26072FBA /* NicooService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooService.swift; sourceTree = "<group>"; };
-		5F988C6F3ED61A01C12260A1B7E62914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		62053EDDF8CC340516DF010E13A22357 /* Pods-NicooNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooNetwork_Tests.modulemap"; sourceTree = "<group>"; };
-		62E8548C9EE9D9573DC63AC7388768A7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		685C5FD14ADF6BA7D327C7517D27652F /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
-		6D38E839C58E980D42446B9E66EB0101 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		711B82172B242D5ECB564A9C8907B241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		750F79DDAE273F6E43135042836F0296 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A7F1FA33DBC5F7FC128354F92B532C9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		7AA367443C7C5CC005D6DB5876B278AD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		7D7C10D54CC551A4C95BEAE9BA439EA9 /* NicooRequestGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooRequestGenerator.swift; sourceTree = "<group>"; };
-		80E2CC4F371C7E2259CCD511A5DF64C4 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		81F77889C80DD88A71C0CDBE04DDF879 /* NicooNetworkingConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooNetworkingConfigurationManager.swift; sourceTree = "<group>"; };
-		84ECE10A23EBEC997639CF45A163A830 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		8987DAA30D508B8FD7F0E3EFC6E26800 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		8A025A3A6BA40560CAAED74C831F277E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		8A4964CEE804D06B72395C64AE73D5BC /* NicooNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooNetwork.xcconfig; sourceTree = "<group>"; };
-		8D0EB19A9C18E708B5639E9731634D16 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95A8AC19202FECD933837A765CFD5CC6 /* Pods-NicooNetwork_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooNetwork_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		97DC7382DBE8F5AC706416F07788E4EB /* Pods-NicooNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		97F242D5D08D961DC066FCCBD6A40E3B /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC0145165A97294E1DDF00A6621C906 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9B0C28F02BCC19BC25C5331C5243AA81 /* Pods-NicooNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooNetwork_Example.modulemap"; sourceTree = "<group>"; };
-		9BA3031B7F2E12C070E46ACA01189DCA /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		9C834B3061E004E5ECFF091BB49FC2B3 /* NicooAPIProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIProxy.swift; sourceTree = "<group>"; };
-		9D130B29E52179DA7621B75A214A6325 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		9DFA599BBDB94BDE596802D80161B5A3 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		9EFD5E3DF0F1398DE90E5FB038B6E9CD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		9FFD40D461D46BEA31211D63468E54D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A0683B43B9ABA8D2A96260E60F276780 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
-		A181EAF80551E42E5488870D0316B568 /* NicooNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NicooNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F3BF44FD0467605FA956B5E131CF18 /* NicooNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooNetwork-dummy.m"; sourceTree = "<group>"; };
-		A5A9003A7F05CF2B868936D2CD85A38D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A655B1655B7C7071E14CEB2E5737CB2D /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
-		AB17549B807101EB2327B56D9FFA2141 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADF433C272C3B900855BFFC056DBC4ED /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		AEB60D5B737296269696BEEC130DD8B2 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		B55BCF0A83BE1BF78471CDEFB2219B02 /* NicooNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NicooNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B74A1F51FCEE417D052016DCFCB6A4B5 /* Pods-NicooNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAD5358E5BF4F7D8C43CD5C97F322C9F /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		BDDF2F72A89453C033FA0725335B78EE /* Pods-NicooNetwork_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooNetwork_Tests-resources.sh"; sourceTree = "<group>"; };
-		C3173F4CA96B80C7D4BADE0C44A40343 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48C1A35F3B9DE2CF9CF4F3F1D0F32E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C60EAE3474BB3A00004CB6F708168EC3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C8999A45C1943BC36AEF6E70B8BB0AAD /* Pods_NicooNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicooNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCFFE0B12354C63BD6B8FE6D622D5BEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9E98227F531E119A9918B80F5AB4EB /* Pods-NicooNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
-		D715D58890CCB31308550A5DAD22E4AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D95EA9BEC0FE60D34B9C2C39C7D30117 /* NicooAPIManagerValidatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerValidatorDelegate.swift; sourceTree = "<group>"; };
-		DECD3A920F5D589C07BD721486DA76BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDFE8AFBBBAA0E2309BE1EAE92ABFCA /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		E0577B17FF03135C08C3C52AD3610DFC /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		E062424D8964F5FDE9CBB528DD7C2971 /* Pods-NicooNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E634F8E021D5689099C1B2F677D75093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		E74CDA24444725A196906693B3FDE49B /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
-		E967076BFCEC4E073FCA252754015350 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		E9ECC2E48842F1F8E7BF9DBDF81DEAA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE4E27B4503C9817137EFBBF526D4CBF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		EFAA5F9F95BFD2DE63C48218D7258EB7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		F0D10D111A14DD5756095D97255B5806 /* NicooBaseAPIBaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooBaseAPIBaseManager.swift; sourceTree = "<group>"; };
-		F175C5B7126513B94CDDF14170ED98EC /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
-		F28EDB90D67398E8E683C76AFC443788 /* NicooNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooNetwork-prefix.pch"; sourceTree = "<group>"; };
-		F56681B31ABC008C6E3F1518992708CA /* NicooAPIManagerDataReformProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerDataReformProtocol.swift; sourceTree = "<group>"; };
-		F632DF50C303382DF23E8CF06C1898B7 /* NicooCacheTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooCacheTool.swift; sourceTree = "<group>"; };
-		F771A84B34213240BC3DF85B5670201A /* NicooAPIManagerInterceptorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerInterceptorProtocol.swift; sourceTree = "<group>"; };
-		FD551A7C63F18F16B33DAB7C6A90C279 /* Pods-NicooNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
-		FD7F4CC973E904A1A7B96D14748E7F73 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		021F2C210A0CD5AEDFCB5238F92965B0 /* NicooService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooService.swift; sourceTree = "<group>"; };
+		033C84E241F82AE79402D931AE54E57D /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		05410408A0B07CCFDF723149F82189A8 /* NicooNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooNetwork.xcconfig; sourceTree = "<group>"; };
+		06A839659911D5191F451F1F8521F77F /* NicooAPIManagerValidatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerValidatorDelegate.swift; sourceTree = "<group>"; };
+		0DF72A6DB716ACF37DA3F34D00DF17C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		191B215397FFF7A12420CA23DC93B35E /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
+		1CA42C8A435443DD544CDFAAE0D6B222 /* NicooNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NicooNetwork.framework; path = NicooNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA9F46AE3D164B1BE4CF743B8EE66BC /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		1F42228F8A7814749853495A03178445 /* NicooNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NicooNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FF03584D8F961D81ADB2D689743118A /* Pods-NicooNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22120DC34A918D47947DCC506182C1D1 /* Pods_NicooNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NicooNetwork_Tests.framework; path = "Pods-NicooNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C5D0F1E5715927BE3E53F3FA917A3F /* NicooCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooCacheItem.swift; sourceTree = "<group>"; };
+		255CD29E3DD34177386117687524BB65 /* Pods-NicooNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2636C3B4EBD2860D07DEE8FBCD26671B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		2935DDCEB4DF237446A5BA5F8A95E1BB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		2D494CB23653869F909A67FBFDC38662 /* Pods-NicooNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Example-Info.plist"; sourceTree = "<group>"; };
+		2E8E5677B6B389C6003732494FFD5490 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		2F63456D10EE54DFF3DB7246651F0EF4 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F90CCCC5F365A0B6735138CB4051261 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		3049C76C633F8B42DDACA1377275BD03 /* NicooServiceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooServiceFactory.swift; sourceTree = "<group>"; };
+		30DE8228574E2DDA9B5165008DC40D31 /* NicooNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooNetwork-dummy.m"; sourceTree = "<group>"; };
+		322DC48462D0154DBE65BD13A89B64CD /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3305CD3B1D5CA5995A1BC83FECDD4C33 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
+		379B8D63EB85E67459D119B02F326BA0 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
+		3B82F54B007E00B231AE6A61907D812E /* NicooNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NicooNetwork-Info.plist"; sourceTree = "<group>"; };
+		3DEDF2BEBEA1F233D4EE028570DD6C6E /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
+		3EE5668B2DB0D8EC4AFAE6EF78959382 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		404F240145E306A76A807FCCD697D293 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03BB8D099BB78F74190893704443B8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5C49EB4B08E246F3417708368F33A0F7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5CCE61C449343289CB0D154E53D1F5DE /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CB35252135567FF387A4F812978DB /* Pods-NicooNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		62C0830B2A8473653D65E6A490C07A6F /* Pods-NicooNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69ABAD2EBFD4D316133C9FB0F586B33E /* NicooNetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooNetworkManager.swift; sourceTree = "<group>"; };
+		6A8F21C7131A4147785E8FE9B34FCEA4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BC81F7C6B9EF0FF84E75715C7CAA914 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCB5F8784BA8361E0F5FA8832F2569D /* Pods-NicooNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D0222401470D867F312E1B1AFEF78C7 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		6E7D48C8DBD08C1596FEB22FD1F28BE7 /* NicooNetworkingConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooNetworkingConfigurationManager.swift; sourceTree = "<group>"; };
+		74699CE97EDF7E5530DDAB7DF6A446A6 /* NicooCacheTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooCacheTool.swift; sourceTree = "<group>"; };
+		77A778606EFB5DB4F12AA887E37B56AD /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
+		78128A6C26C5AD805C299DD6B277C450 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		7F02D07A1124914750AA62E3B1EB2889 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		85998B8387E0093AFDBAA55FBD0CDC22 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		875952B8684AD59AC879A666DD73539E /* NicooNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooNetwork-prefix.pch"; sourceTree = "<group>"; };
+		89E60C2C201645B3AD0842AE7D1D36A5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EB1945EDFC968D5B9D287612A34436 /* NicooAPIProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIProxy.swift; sourceTree = "<group>"; };
+		92BFF6168CF65FAC6CA5AC315813309A /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		947A49FD843ADF193706DD07B1723B0A /* NicooRequestGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooRequestGenerator.swift; sourceTree = "<group>"; };
+		9860D473284DF47466F520522C672F9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		99C1FD09DE161AAAC74121EAC6688BD3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		9A3B82E8B59BFF01EEBA4EFB86759954 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD78CB5FC97FC3B9AC3838D3AB3B805 /* NicooAPIManagerInterceptorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerInterceptorProtocol.swift; sourceTree = "<group>"; };
+		9FFA6E4FE2DC81B7FB7F35E4007CDDEA /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		A560B129A925A0F083A28CAEF2F306A0 /* Pods-NicooNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A661916CBBBD2F06D82DB9FE28131238 /* Pods-NicooNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A78BE95788A5A93273965EE36A638C44 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		AAE57ADB51743A6C3C925EE01D7BA7F3 /* Pods-NicooNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD08E495844EE5E80136F979A238EBC4 /* Pods-NicooNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE6B62939EC1F2B4FDDF7B75A94D655D /* Pods_NicooNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NicooNetwork_Example.framework; path = "Pods-NicooNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7AF44E6842F022B47D1861032BAFB6 /* Pods-NicooNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B25064350D6FD694851A610F43DD254B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B4CE26CF153E215B5BA25BD3C0238AA5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		BA6613CC9186360E5326AC3086B6FE8E /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BD16E7D80655759D565279B1FBF38E98 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		BE60A5E6BCA3A98C8341085D73F17ABE /* NicooNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooNetwork-umbrella.h"; sourceTree = "<group>"; };
+		C29589BEA094F1BB2946D2718E7759F3 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		C89F73B467E0CE36DB8A35FA7E29F965 /* NicooURLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooURLResponse.swift; sourceTree = "<group>"; };
+		CACE8F53C05D508DB1180EB7EBEDACDA /* Pods-NicooNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC4727742D1EFADC4209CBB1813E5D1C /* Pods-NicooNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooNetwork_Example.modulemap"; sourceTree = "<group>"; };
+		CC9C4AB507F65AFD9408219CA286D3EF /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		CEC6275DD797572505F0A827599A5CEC /* NicooAPIManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerProtocol.swift; sourceTree = "<group>"; };
+		D10DEF7668E6238004A4664F1261630C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		D27FC0B1F025E13DB28D91BD3208D315 /* Pods-NicooNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2DA41D6C2D3EC6D3F98E6B276BC1DDF /* Pods-NicooNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D33151810569004A266C17B16566A908 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		D3691AA25B09D4116BA291D32A82FB2D /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
+		D60FE785C7ACFA41E7231ADD17132A86 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
+		DB317B9F70AF5AC1E8B3D4215AA272FE /* NicooBaseAPIBaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooBaseAPIBaseManager.swift; sourceTree = "<group>"; };
+		E1ABE05C2978A29147412853A0F4E1ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E26A85700FA5CBE82AE2136BF2697EA2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		E6E5273307DD32B22F3FBCC846077755 /* Pods-NicooNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA300BA146E299EA1D5492745E2F5BC1 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		EBD5C2D1DADF64CB92948615C091C4AD /* NicooNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooNetwork.modulemap; sourceTree = "<group>"; };
+		ECC8E48DA87C0376EDE5E2F2D3A19C48 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F148AC4EC65CADC7261301460336A152 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		F1C5019BF25D4887B8F92C49CB7FBECD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F470E4BB4065971C66206CED1CE55B98 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F89EA46571CC2C537533368894B3EE4A /* Pods-NicooNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooNetwork_Example-dummy.m"; sourceTree = "<group>"; };
+		FAA3C3CD24E2F61A26D5B3EB33DEC92A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		FB35C8172E280986229E7CAC46C128E1 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		FC0BE27456BFEF546B4F02699A71B8DD /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		FF936ABD0BF7EF57ED8AE91A7C9761E5 /* NicooAPIManagerDataReformProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NicooAPIManagerDataReformProtocol.swift; sourceTree = "<group>"; };
+		FFDCFD958AD5410A6DCE70B5E9963232 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02F38AFBC6DF3FCE0CF901027C649574 /* Frameworks */ = {
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B63BB8EAA5A6F2C7B8CDAF741D6943 /* Foundation.framework in Frameworks */,
+				7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1544733BB25F9F7EBA91A70E58CBF57E /* Frameworks */ = {
+		4297653025564BF9EF6F34F9E842ABBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F172515253B612E7975C344C8CF25A0E /* Foundation.framework in Frameworks */,
+				CC482F33D9FB85395E2F9BD62619F3C6 /* Alamofire.framework in Frameworks */,
+				C476AE57F40A67F4F7E252965D670C8D /* Foundation.framework in Frameworks */,
+				EB518C2E11D5F9547CA55906D9FA5291 /* YYCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+		50223806C53ACCB37083327575C6FF65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+				FC37FD39999CDA054737FDD093FDB2F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FE6CEF1763E05FB90653801CE3E2B5B /* Frameworks */ = {
+		95E302129EE635A833F0B6FD19A5E818 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AC26FB387427964538FA5FCEA4A8A3 /* CoreGraphics.framework in Frameworks */,
-				ECBA1F4D70AF4600563FD39112D5997B /* Foundation.framework in Frameworks */,
+				157D9058E1726E1C5B550E4A8DD52214 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A417769344F3CBA901F9611FB3654B01 /* Frameworks */ = {
+		A76F3841CE069595D76892819F591F6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AD8A9207313B8C272167E0900E736F /* Alamofire.framework in Frameworks */,
-				CF00106FB62C15E83985C866A5EADE32 /* Foundation.framework in Frameworks */,
-				353ED5C9B0AFC80684B9B0C09DECA430 /* YYCache.framework in Frameworks */,
+				6E36C785301064939F23C267568F9B29 /* CoreGraphics.framework in Frameworks */,
+				DF5D6DD808182199242573C3EEC1AD06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3EE374567E156D92569D3613D3E449B /* Frameworks */ = {
+		EB28B3DF405DF1784B357EECF2266049 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF79039E5D7F31827530DECC7BC44671 /* CoreFoundation.framework in Frameworks */,
-				834B921A76DA4AC82104E28337FB276C /* Foundation.framework in Frameworks */,
-				E4FEA55FA6FF32FD2908D71751C1470E /* QuartzCore.framework in Frameworks */,
-				278EB673EB6BEF367D2E48E89205850C /* UIKit.framework in Frameworks */,
+				24309441E68DAE426D0A61C8F7ED79EB /* CoreFoundation.framework in Frameworks */,
+				61CCEE5AC3150716F27CAEF3FBEC1F61 /* Foundation.framework in Frameworks */,
+				74F1549435206CBC53D621D04A28A6F5 /* QuartzCore.framework in Frameworks */,
+				2BE5E6A40179A769707979362AE865B8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03794D24E3E8DD72E316D2FB32FD4F25 /* Support Files */ = {
+		0D4A709A4369A51CCB207B767200B928 /* NetworkingObserver */ = {
 			isa = PBXGroup;
 			children = (
-				AB17549B807101EB2327B56D9FFA2141 /* Info.plist */,
-				045DE8A8013E133AABE010E355EA3E7F /* NicooNetwork.modulemap */,
-				8A4964CEE804D06B72395C64AE73D5BC /* NicooNetwork.xcconfig */,
-				A4F3BF44FD0467605FA956B5E131CF18 /* NicooNetwork-dummy.m */,
-				F28EDB90D67398E8E683C76AFC443788 /* NicooNetwork-prefix.pch */,
-				5628C215BCF9959D202125F0E16BC30A /* NicooNetwork-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NicooNetwork";
-			sourceTree = "<group>";
-		};
-		1B2B937F6C164EAEF81430BAD98FDFB2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38F249292AE0D917729D165254BF22B5 /* Alamofire */,
-				308FF0211000F45CA6B41000CF409D64 /* MBProgressHUD */,
-				2FDE59AFA526F8C67099EF4DAC8B03A5 /* YYCache */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		26F37E8A627741F38D7CB334F7DAC703 /* URLResponse */ = {
-			isa = PBXGroup;
-			children = (
-				54236F1973AADBD1A55449460461409A /* NicooURLResponse.swift */,
-			);
-			path = URLResponse;
-			sourceTree = "<group>";
-		};
-		28C3D6CFD977BF4EF0F02F3215D184DA /* RequestGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				7D7C10D54CC551A4C95BEAE9BA439EA9 /* NicooRequestGenerator.swift */,
-			);
-			name = RequestGenerator;
-			path = NicooNetwork/Classes/RequestGenerator;
-			sourceTree = "<group>";
-		};
-		2FDE59AFA526F8C67099EF4DAC8B03A5 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				2FC35C1015B6DC723163D45662D7068F /* YYCache.h */,
-				A0683B43B9ABA8D2A96260E60F276780 /* YYCache.m */,
-				A655B1655B7C7071E14CEB2E5737CB2D /* YYDiskCache.h */,
-				F175C5B7126513B94CDDF14170ED98EC /* YYDiskCache.m */,
-				3E9AABA1AA4B4E05143ADE668E216E5A /* YYKVStorage.h */,
-				685C5FD14ADF6BA7D327C7517D27652F /* YYKVStorage.m */,
-				3CD29E81DB0AD738EE9E1753B349C240 /* YYMemoryCache.h */,
-				20264879869E8F419EC59485B5EFDF7E /* YYMemoryCache.m */,
-				CEF21285FCEF3BE5E4A56B6C4993476B /* Support Files */,
-			);
-			path = YYCache;
-			sourceTree = "<group>";
-		};
-		308FF0211000F45CA6B41000CF409D64 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EB19A9C18E708B5639E9731634D16 /* MBProgressHUD.h */,
-				0C11474FAB9258A7A88B97F26F8007C3 /* MBProgressHUD.m */,
-				BB82118A6B3F140A044937D9B9F6062A /* Support Files */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		3140D02C1EBA880C31FC33BF41FEE41D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				330FBE4272E66FF85F26D97074438A5E /* CoreFoundation.framework */,
-				E634F8E021D5689099C1B2F677D75093 /* CoreGraphics.framework */,
-				1968264A189D7E0D2524D0C0FED7C729 /* Foundation.framework */,
-				C60EAE3474BB3A00004CB6F708168EC3 /* QuartzCore.framework */,
-				5F988C6F3ED61A01C12260A1B7E62914 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		38F249292AE0D917729D165254BF22B5 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				8987DAA30D508B8FD7F0E3EFC6E26800 /* AFError.swift */,
-				ADF433C272C3B900855BFFC056DBC4ED /* Alamofire.swift */,
-				36DEAA6393D7C01BE21C33C5C11B1DD5 /* DispatchQueue+Alamofire.swift */,
-				3B8F1845540D3509A1C1486260B00891 /* MultipartFormData.swift */,
-				7A7F1FA33DBC5F7FC128354F92B532C9 /* NetworkReachabilityManager.swift */,
-				E0577B17FF03135C08C3C52AD3610DFC /* Notifications.swift */,
-				9EFD5E3DF0F1398DE90E5FB038B6E9CD /* ParameterEncoding.swift */,
-				84ECE10A23EBEC997639CF45A163A830 /* Request.swift */,
-				EFAA5F9F95BFD2DE63C48218D7258EB7 /* Response.swift */,
-				E967076BFCEC4E073FCA252754015350 /* ResponseSerialization.swift */,
-				62E8548C9EE9D9573DC63AC7388768A7 /* Result.swift */,
-				25CC1ECEC901B3F7FBC28353A9F47B6D /* ServerTrustPolicy.swift */,
-				DFDFE8AFBBBAA0E2309BE1EAE92ABFCA /* SessionDelegate.swift */,
-				2915B046E660B0653B58D148BB1E3898 /* SessionManager.swift */,
-				6D38E839C58E980D42446B9E66EB0101 /* TaskDelegate.swift */,
-				7AA367443C7C5CC005D6DB5876B278AD /* Timeline.swift */,
-				9DFA599BBDB94BDE596802D80161B5A3 /* Validation.swift */,
-				FF880AF90E3DEA694FB10BF64E1C0202 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		418B63FE99E618142BD0EFE5B6AC2DFE /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				593FD2732BA277D32589548E26072FBA /* NicooService.swift */,
-				13A19901E73EF1175FC1614A33CFD485 /* NicooServiceFactory.swift */,
-			);
-			name = Service;
-			path = NicooNetwork/Classes/Service;
-			sourceTree = "<group>";
-		};
-		4C1145963356FE6BE55FAA7FE1AC3047 /* Pods-NicooNetwork_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DECD3A920F5D589C07BD721486DA76BF /* Info.plist */,
-				62053EDDF8CC340516DF010E13A22357 /* Pods-NicooNetwork_Tests.modulemap */,
-				577421769DE6BCB3F631E106E68B84FF /* Pods-NicooNetwork_Tests-acknowledgements.markdown */,
-				00843A16CF1C74B8D32B9D264CDFB9E1 /* Pods-NicooNetwork_Tests-acknowledgements.plist */,
-				CD9E98227F531E119A9918B80F5AB4EB /* Pods-NicooNetwork_Tests-dummy.m */,
-				95A8AC19202FECD933837A765CFD5CC6 /* Pods-NicooNetwork_Tests-frameworks.sh */,
-				BDDF2F72A89453C033FA0725335B78EE /* Pods-NicooNetwork_Tests-resources.sh */,
-				0804DFDCD966468F33CFF5FF8963784B /* Pods-NicooNetwork_Tests-umbrella.h */,
-				B74A1F51FCEE417D052016DCFCB6A4B5 /* Pods-NicooNetwork_Tests.debug.xcconfig */,
-				5769378A24454A47197B5DED0B4279B6 /* Pods-NicooNetwork_Tests.release.xcconfig */,
-			);
-			name = "Pods-NicooNetwork_Tests";
-			path = "Target Support Files/Pods-NicooNetwork_Tests";
-			sourceTree = "<group>";
-		};
-		56EE6F7B1E927EE21834C712EBD47284 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				848279C540732F1E2B7AB8618A4C58BD /* Pods-NicooNetwork_Example */,
-				4C1145963356FE6BE55FAA7FE1AC3047 /* Pods-NicooNetwork_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5B65B110468F410549E423E729E46906 /* NicooNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				FEC9C6C887C74432CB4B9549BB99018A /* Components */,
-				AC9EB11DB5C39D0330E198B23ED2D808 /* Configurations */,
-				7F0F5C8E79E474CF8618505F7B1CC978 /* NetworkingObserver */,
-				FA82D6744332E00C8873914051B21411 /* Pod */,
-				28C3D6CFD977BF4EF0F02F3215D184DA /* RequestGenerator */,
-				418B63FE99E618142BD0EFE5B6AC2DFE /* Service */,
-				03794D24E3E8DD72E316D2FB32FD4F25 /* Support Files */,
-			);
-			name = NicooNetwork;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DE70D39E54D3880155B2895917BAC00D /* Development Pods */,
-				CAE80613F09FEE63528EFC9A740C367A /* Frameworks */,
-				1B2B937F6C164EAEF81430BAD98FDFB2 /* Pods */,
-				A233A856F2B2EE3C52099813E15EFC5F /* Products */,
-				56EE6F7B1E927EE21834C712EBD47284 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7F0F5C8E79E474CF8618505F7B1CC978 /* NetworkingObserver */ = {
-			isa = PBXGroup;
-			children = (
-				4D8667072A7E8B30BA370DAFB6569EFA /* NicooNetworkManager.swift */,
+				69ABAD2EBFD4D316133C9FB0F586B33E /* NicooNetworkManager.swift */,
 			);
 			name = NetworkingObserver;
 			path = NicooNetwork/Classes/NetworkingObserver;
 			sourceTree = "<group>";
 		};
-		848279C540732F1E2B7AB8618A4C58BD /* Pods-NicooNetwork_Example */ = {
+		0D9FB53CEAE1704B98225666BE6D825B /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				E9ECC2E48842F1F8E7BF9DBDF81DEAA9 /* Info.plist */,
-				9B0C28F02BCC19BC25C5331C5243AA81 /* Pods-NicooNetwork_Example.modulemap */,
-				97DC7382DBE8F5AC706416F07788E4EB /* Pods-NicooNetwork_Example-acknowledgements.markdown */,
-				04C663CE38829AE0A31C17E73FFE7B07 /* Pods-NicooNetwork_Example-acknowledgements.plist */,
-				4959ADC4CB51F8A0D2F527FBA1D2BF1C /* Pods-NicooNetwork_Example-dummy.m */,
-				4FCA25B3DAC293E287AFD080FC0E0A7F /* Pods-NicooNetwork_Example-frameworks.sh */,
-				1298409DCD81DDD49D2C849735F4B5F6 /* Pods-NicooNetwork_Example-resources.sh */,
-				FD551A7C63F18F16B33DAB7C6A90C279 /* Pods-NicooNetwork_Example-umbrella.h */,
-				E062424D8964F5FDE9CBB528DD7C2971 /* Pods-NicooNetwork_Example.debug.xcconfig */,
-				440873C090D816BA92C80D022EBC213E /* Pods-NicooNetwork_Example.release.xcconfig */,
+				ECC8E48DA87C0376EDE5E2F2D3A19C48 /* MBProgressHUD.h */,
+				5C03BB8D099BB78F74190893704443B8 /* MBProgressHUD.m */,
+				B2B197C2CF70E4953F2FDB54B2ECF837 /* Support Files */,
 			);
-			name = "Pods-NicooNetwork_Example";
-			path = "Target Support Files/Pods-NicooNetwork_Example";
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		8E2E63036119692ED8474CE308A75B7A /* Cache */ = {
+		21AC33251B5607E5A34FE2645D94BEE1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0FD32A8C3F538FE77379855C81D026BB /* NicooCacheItem.swift */,
-				F632DF50C303382DF23E8CF06C1898B7 /* NicooCacheTool.swift */,
+				6A8F21C7131A4147785E8FE9B34FCEA4 /* CoreFoundation.framework */,
+				9860D473284DF47466F520522C672F9D /* CoreGraphics.framework */,
+				B3BC1CC2135ECAB17E6F011C533CAE2B /* Foundation.framework */,
+				404F240145E306A76A807FCCD697D293 /* QuartzCore.framework */,
+				E1ABE05C2978A29147412853A0F4E1ED /* UIKit.framework */,
 			);
-			path = Cache;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A233A856F2B2EE3C52099813E15EFC5F /* Products */ = {
+		26063FAD72E8BB96CD748BA5358A46B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3173F4CA96B80C7D4BADE0C44A40343 /* Alamofire.framework */,
-				1FBE841F421CC2865E9139AC0BDCF17F /* MBProgressHUD.framework */,
-				A181EAF80551E42E5488870D0316B568 /* NicooNetwork.framework */,
-				2E7D6D645F50D2E43CD8DE0D1F04E1D3 /* Pods_NicooNetwork_Example.framework */,
-				C8999A45C1943BC36AEF6E70B8BB0AAD /* Pods_NicooNetwork_Tests.framework */,
-				97F242D5D08D961DC066FCCBD6A40E3B /* YYCache.framework */,
+				3B82D7B66286820DA77E152247512E18 /* Alamofire */,
+				0D9FB53CEAE1704B98225666BE6D825B /* MBProgressHUD */,
+				AD43B11980B58C0D471A233F2674850F /* YYCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FA278A0AD36DF3957D5369232E07215 /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				947A49FD843ADF193706DD07B1723B0A /* NicooRequestGenerator.swift */,
+			);
+			name = RequestGenerator;
+			path = NicooNetwork/Classes/RequestGenerator;
+			sourceTree = "<group>";
+		};
+		3975D05C59F234B8DD0C8D4765DA6269 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				021F2C210A0CD5AEDFCB5238F92965B0 /* NicooService.swift */,
+				3049C76C633F8B42DDACA1377275BD03 /* NicooServiceFactory.swift */,
+			);
+			name = Service;
+			path = NicooNetwork/Classes/Service;
+			sourceTree = "<group>";
+		};
+		3B82D7B66286820DA77E152247512E18 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E26A85700FA5CBE82AE2136BF2697EA2 /* AFError.swift */,
+				2935DDCEB4DF237446A5BA5F8A95E1BB /* Alamofire.swift */,
+				F470E4BB4065971C66206CED1CE55B98 /* DispatchQueue+Alamofire.swift */,
+				5C49EB4B08E246F3417708368F33A0F7 /* MultipartFormData.swift */,
+				B25064350D6FD694851A610F43DD254B /* NetworkReachabilityManager.swift */,
+				CC9C4AB507F65AFD9408219CA286D3EF /* Notifications.swift */,
+				5CCE61C449343289CB0D154E53D1F5DE /* ParameterEncoding.swift */,
+				78128A6C26C5AD805C299DD6B277C450 /* Request.swift */,
+				89E60C2C201645B3AD0842AE7D1D36A5 /* Response.swift */,
+				322DC48462D0154DBE65BD13A89B64CD /* ResponseSerialization.swift */,
+				2636C3B4EBD2860D07DEE8FBCD26671B /* Result.swift */,
+				7F02D07A1124914750AA62E3B1EB2889 /* ServerTrustPolicy.swift */,
+				BD16E7D80655759D565279B1FBF38E98 /* SessionDelegate.swift */,
+				FC0BE27456BFEF546B4F02699A71B8DD /* SessionManager.swift */,
+				C29589BEA094F1BB2946D2718E7759F3 /* TaskDelegate.swift */,
+				F1C5019BF25D4887B8F92C49CB7FBECD /* Timeline.swift */,
+				B4CE26CF153E215B5BA25BD3C0238AA5 /* Validation.swift */,
+				E074261BB01DF169B4A72CF086619937 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		55AC9C062A86AD84E872FD7D3CA0429A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B399E8DF58A3D897F6D65F1D4F8B620A /* Pods-NicooNetwork_Example */,
+				DBB4C346994ADE59111401B023A9F6D1 /* Pods-NicooNetwork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65F1CF1010D1357C16068F6FC90294DE /* URLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C89F73B467E0CE36DB8A35FA7E29F965 /* NicooURLResponse.swift */,
+			);
+			name = URLResponse;
+			path = URLResponse;
+			sourceTree = "<group>";
+		};
+		6C2DD74728B5B81B6E1A0D5FFEF83253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				1CA42C8A435443DD544CDFAAE0D6B222 /* NicooNetwork.framework */,
+				AE6B62939EC1F2B4FDDF7B75A94D655D /* Pods_NicooNetwork_Example.framework */,
+				22120DC34A918D47947DCC506182C1D1 /* Pods_NicooNetwork_Tests.framework */,
+				48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC9EB11DB5C39D0330E198B23ED2D808 /* Configurations */ = {
+		78E3101B7CE8F177FC07DAF91E2B043F /* NicooNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				81F77889C80DD88A71C0CDBE04DDF879 /* NicooNetworkingConfigurationManager.swift */,
+				959EFD07D984A1651D66BDE181D17FD8 /* Components */,
+				85666BE8C5B14CAD98CB561D5C09E2B6 /* Configurations */,
+				0D4A709A4369A51CCB207B767200B928 /* NetworkingObserver */,
+				8A66940099DC16502775ACB9E9D31131 /* Pod */,
+				2FA278A0AD36DF3957D5369232E07215 /* RequestGenerator */,
+				3975D05C59F234B8DD0C8D4765DA6269 /* Service */,
+				9E52E5716E6DF55C2C1F41EE9EE9BFB1 /* Support Files */,
+			);
+			name = NicooNetwork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		85666BE8C5B14CAD98CB561D5C09E2B6 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6E7D48C8DBD08C1596FEB22FD1F28BE7 /* NicooNetworkingConfigurationManager.swift */,
 			);
 			name = Configurations;
 			path = NicooNetwork/Classes/Configurations;
 			sourceTree = "<group>";
 		};
-		B64553D85BBAC8B29DAF011D4D37ED91 /* BaseAPIManager */ = {
+		87242E3A8F061A1E0D172842A580DD65 /* APIProxy */ = {
 			isa = PBXGroup;
 			children = (
-				F56681B31ABC008C6E3F1518992708CA /* NicooAPIManagerDataReformProtocol.swift */,
-				F771A84B34213240BC3DF85B5670201A /* NicooAPIManagerInterceptorProtocol.swift */,
-				4AF524C733384A5645139AE44930220D /* NicooAPIManagerProtocol.swift */,
-				D95EA9BEC0FE60D34B9C2C39C7D30117 /* NicooAPIManagerValidatorDelegate.swift */,
-				F0D10D111A14DD5756095D97255B5806 /* NicooBaseAPIBaseManager.swift */,
+				91EB1945EDFC968D5B9D287612A34436 /* NicooAPIProxy.swift */,
 			);
-			path = BaseAPIManager;
-			sourceTree = "<group>";
-		};
-		BB82118A6B3F140A044937D9B9F6062A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D715D58890CCB31308550A5DAD22E4AE /* Info.plist */,
-				AEB60D5B737296269696BEEC130DD8B2 /* MBProgressHUD.modulemap */,
-				80E2CC4F371C7E2259CCD511A5DF64C4 /* MBProgressHUD.xcconfig */,
-				38F2FDABF75A7277ACF629C8216172BC /* MBProgressHUD-dummy.m */,
-				9BA3031B7F2E12C070E46ACA01189DCA /* MBProgressHUD-prefix.pch */,
-				BAD5358E5BF4F7D8C43CD5C97F322C9F /* MBProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
-		CAE80613F09FEE63528EFC9A740C367A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5A9003A7F05CF2B868936D2CD85A38D /* Alamofire.framework */,
-				750F79DDAE273F6E43135042836F0296 /* YYCache.framework */,
-				3140D02C1EBA880C31FC33BF41FEE41D /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CEF21285FCEF3BE5E4A56B6C4993476B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				711B82172B242D5ECB564A9C8907B241 /* Info.plist */,
-				0319D7FD97044AE211BB1BC56384390F /* YYCache.modulemap */,
-				FD7F4CC973E904A1A7B96D14748E7F73 /* YYCache.xcconfig */,
-				25F7DA61E6033E9E490BE51C4D83486E /* YYCache-dummy.m */,
-				E74CDA24444725A196906693B3FDE49B /* YYCache-prefix.pch */,
-				350ECBDB08857479DD3AF8242BEB1279 /* YYCache-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYCache";
-			sourceTree = "<group>";
-		};
-		DE70D39E54D3880155B2895917BAC00D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B65B110468F410549E423E729E46906 /* NicooNetwork */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F2FFE3EE07E4633126BEE2C7571D1EE8 /* APIProxy */ = {
-			isa = PBXGroup;
-			children = (
-				9C834B3061E004E5ECFF091BB49FC2B3 /* NicooAPIProxy.swift */,
-			);
+			name = APIProxy;
 			path = APIProxy;
 			sourceTree = "<group>";
 		};
-		FA82D6744332E00C8873914051B21411 /* Pod */ = {
+		876A6336FB78C2139F8CA28BE74F8C25 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				C48C1A35F3B9DE2CF9CF4F3F1D0F32E1 /* LICENSE */,
-				B55BCF0A83BE1BF78471CDEFB2219B02 /* NicooNetwork.podspec */,
-				9FFD40D461D46BEA31211D63468E54D1 /* README.md */,
+				23C5D0F1E5715927BE3E53F3FA917A3F /* NicooCacheItem.swift */,
+				74699CE97EDF7E5530DDAB7DF6A446A6 /* NicooCacheTool.swift */,
+			);
+			name = Cache;
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		8A66940099DC16502775ACB9E9D31131 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DF72A6DB716ACF37DA3F34D00DF17C6 /* LICENSE */,
+				1F42228F8A7814749853495A03178445 /* NicooNetwork.podspec */,
+				3EE5668B2DB0D8EC4AFAE6EF78959382 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FEC9C6C887C74432CB4B9549BB99018A /* Components */ = {
+		959EFD07D984A1651D66BDE181D17FD8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				F2FFE3EE07E4633126BEE2C7571D1EE8 /* APIProxy */,
-				B64553D85BBAC8B29DAF011D4D37ED91 /* BaseAPIManager */,
-				8E2E63036119692ED8474CE308A75B7A /* Cache */,
-				26F37E8A627741F38D7CB334F7DAC703 /* URLResponse */,
+				87242E3A8F061A1E0D172842A580DD65 /* APIProxy */,
+				AACB1F3D71F141E7A9D185AE50DDC8F6 /* BaseAPIManager */,
+				876A6336FB78C2139F8CA28BE74F8C25 /* Cache */,
+				65F1CF1010D1357C16068F6FC90294DE /* URLResponse */,
 			);
 			name = Components;
 			path = NicooNetwork/Classes/Components;
 			sourceTree = "<group>";
 		};
-		FF880AF90E3DEA694FB10BF64E1C0202 /* Support Files */ = {
+		9E52E5716E6DF55C2C1F41EE9EE9BFB1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE4E27B4503C9817137EFBBF526D4CBF /* Alamofire.modulemap */,
-				8A025A3A6BA40560CAAED74C831F277E /* Alamofire.xcconfig */,
-				9D130B29E52179DA7621B75A214A6325 /* Alamofire-dummy.m */,
-				00EC2D9C9880D7098727C1A9C1980A98 /* Alamofire-prefix.pch */,
-				9AC0145165A97294E1DDF00A6621C906 /* Alamofire-umbrella.h */,
-				CCFFE0B12354C63BD6B8FE6D622D5BEF /* Info.plist */,
+				EBD5C2D1DADF64CB92948615C091C4AD /* NicooNetwork.modulemap */,
+				05410408A0B07CCFDF723149F82189A8 /* NicooNetwork.xcconfig */,
+				30DE8228574E2DDA9B5165008DC40D31 /* NicooNetwork-dummy.m */,
+				3B82F54B007E00B231AE6A61907D812E /* NicooNetwork-Info.plist */,
+				875952B8684AD59AC879A666DD73539E /* NicooNetwork-prefix.pch */,
+				BE60A5E6BCA3A98C8341085D73F17ABE /* NicooNetwork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NicooNetwork";
+			sourceTree = "<group>";
+		};
+		AACB1F3D71F141E7A9D185AE50DDC8F6 /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				FF936ABD0BF7EF57ED8AE91A7C9761E5 /* NicooAPIManagerDataReformProtocol.swift */,
+				9FD78CB5FC97FC3B9AC3838D3AB3B805 /* NicooAPIManagerInterceptorProtocol.swift */,
+				CEC6275DD797572505F0A827599A5CEC /* NicooAPIManagerProtocol.swift */,
+				06A839659911D5191F451F1F8521F77F /* NicooAPIManagerValidatorDelegate.swift */,
+				DB317B9F70AF5AC1E8B3D4215AA272FE /* NicooBaseAPIBaseManager.swift */,
+			);
+			name = BaseAPIManager;
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		AD43B11980B58C0D471A233F2674850F /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				77A778606EFB5DB4F12AA887E37B56AD /* YYCache.h */,
+				3305CD3B1D5CA5995A1BC83FECDD4C33 /* YYCache.m */,
+				D60FE785C7ACFA41E7231ADD17132A86 /* YYDiskCache.h */,
+				D33151810569004A266C17B16566A908 /* YYDiskCache.m */,
+				A78BE95788A5A93273965EE36A638C44 /* YYKVStorage.h */,
+				D3691AA25B09D4116BA291D32A82FB2D /* YYKVStorage.m */,
+				1CA9F46AE3D164B1BE4CF743B8EE66BC /* YYMemoryCache.h */,
+				3DEDF2BEBEA1F233D4EE028570DD6C6E /* YYMemoryCache.m */,
+				D38F60537AE564665D1135324A6CD155 /* Support Files */,
+			);
+			name = YYCache;
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		B2B197C2CF70E4953F2FDB54B2ECF837 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F90CCCC5F365A0B6735138CB4051261 /* MBProgressHUD.modulemap */,
+				BA6613CC9186360E5326AC3086B6FE8E /* MBProgressHUD.xcconfig */,
+				FB35C8172E280986229E7CAC46C128E1 /* MBProgressHUD-dummy.m */,
+				EA300BA146E299EA1D5492745E2F5BC1 /* MBProgressHUD-Info.plist */,
+				99C1FD09DE161AAAC74121EAC6688BD3 /* MBProgressHUD-prefix.pch */,
+				033C84E241F82AE79402D931AE54E57D /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		B399E8DF58A3D897F6D65F1D4F8B620A /* Pods-NicooNetwork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC4727742D1EFADC4209CBB1813E5D1C /* Pods-NicooNetwork_Example.modulemap */,
+				AF7AF44E6842F022B47D1861032BAFB6 /* Pods-NicooNetwork_Example-acknowledgements.markdown */,
+				D2DA41D6C2D3EC6D3F98E6B276BC1DDF /* Pods-NicooNetwork_Example-acknowledgements.plist */,
+				F89EA46571CC2C537533368894B3EE4A /* Pods-NicooNetwork_Example-dummy.m */,
+				A560B129A925A0F083A28CAEF2F306A0 /* Pods-NicooNetwork_Example-frameworks.sh */,
+				2D494CB23653869F909A67FBFDC38662 /* Pods-NicooNetwork_Example-Info.plist */,
+				6CCB5F8784BA8361E0F5FA8832F2569D /* Pods-NicooNetwork_Example-umbrella.h */,
+				62C0830B2A8473653D65E6A490C07A6F /* Pods-NicooNetwork_Example.debug.xcconfig */,
+				A661916CBBBD2F06D82DB9FE28131238 /* Pods-NicooNetwork_Example.release.xcconfig */,
+			);
+			name = "Pods-NicooNetwork_Example";
+			path = "Target Support Files/Pods-NicooNetwork_Example";
+			sourceTree = "<group>";
+		};
+		CA09BE0B200E84A78CD252A7FEE06A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BC81F7C6B9EF0FF84E75715C7CAA914 /* Alamofire.framework */,
+				2F63456D10EE54DFF3DB7246651F0EF4 /* YYCache.framework */,
+				21AC33251B5607E5A34FE2645D94BEE1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F91AE15F96596ECA4A9B46E53C692AA9 /* Development Pods */,
+				CA09BE0B200E84A78CD252A7FEE06A40 /* Frameworks */,
+				26063FAD72E8BB96CD748BA5358A46B2 /* Pods */,
+				6C2DD74728B5B81B6E1A0D5FFEF83253 /* Products */,
+				55AC9C062A86AD84E872FD7D3CA0429A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D38F60537AE564665D1135324A6CD155 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B82E8B59BFF01EEBA4EFB86759954 /* YYCache.modulemap */,
+				92BFF6168CF65FAC6CA5AC315813309A /* YYCache.xcconfig */,
+				6D0222401470D867F312E1B1AFEF78C7 /* YYCache-dummy.m */,
+				191B215397FFF7A12420CA23DC93B35E /* YYCache-Info.plist */,
+				379B8D63EB85E67459D119B02F326BA0 /* YYCache-prefix.pch */,
+				FFDCFD958AD5410A6DCE70B5E9963232 /* YYCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
+			sourceTree = "<group>";
+		};
+		DBB4C346994ADE59111401B023A9F6D1 /* Pods-NicooNetwork_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				605CB35252135567FF387A4F812978DB /* Pods-NicooNetwork_Tests.modulemap */,
+				D27FC0B1F025E13DB28D91BD3208D315 /* Pods-NicooNetwork_Tests-acknowledgements.markdown */,
+				1FF03584D8F961D81ADB2D689743118A /* Pods-NicooNetwork_Tests-acknowledgements.plist */,
+				AAE57ADB51743A6C3C925EE01D7BA7F3 /* Pods-NicooNetwork_Tests-dummy.m */,
+				AD08E495844EE5E80136F979A238EBC4 /* Pods-NicooNetwork_Tests-Info.plist */,
+				CACE8F53C05D508DB1180EB7EBEDACDA /* Pods-NicooNetwork_Tests-umbrella.h */,
+				255CD29E3DD34177386117687524BB65 /* Pods-NicooNetwork_Tests.debug.xcconfig */,
+				E6E5273307DD32B22F3FBCC846077755 /* Pods-NicooNetwork_Tests.release.xcconfig */,
+			);
+			name = "Pods-NicooNetwork_Tests";
+			path = "Target Support Files/Pods-NicooNetwork_Tests";
+			sourceTree = "<group>";
+		};
+		E074261BB01DF169B4A72CF086619937 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA6E4FE2DC81B7FB7F35E4007CDDEA /* Alamofire.modulemap */,
+				F148AC4EC65CADC7261301460336A152 /* Alamofire.xcconfig */,
+				85998B8387E0093AFDBAA55FBD0CDC22 /* Alamofire-dummy.m */,
+				2E8E5677B6B389C6003732494FFD5490 /* Alamofire-Info.plist */,
+				D10DEF7668E6238004A4664F1261630C /* Alamofire-prefix.pch */,
+				FAA3C3CD24E2F61A26D5B3EB33DEC92A /* Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		F91AE15F96596ECA4A9B46E53C692AA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E3101B7CE8F177FC07DAF91E2B043F /* NicooNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		084F84165FDC1256FF202269A3988B5D /* Headers */ = {
+		0428D762333257C8326421D6C9D0500E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB37E3BE33B639A77271F9DB8B5775A8 /* YYCache-umbrella.h in Headers */,
-				654C2CDA8579AFC11BB04BB5274E97D4 /* YYCache.h in Headers */,
-				21F82308E9E0AF5690D5488417D8D14C /* YYDiskCache.h in Headers */,
-				5CFEC2BCE5CEA754F0924A7F06EDC17F /* YYKVStorage.h in Headers */,
-				417939B2DAF3D4A0221A5975D1056F69 /* YYMemoryCache.h in Headers */,
+				FEC55793F579BB5636A6CE0025E1AABF /* Pods-NicooNetwork_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1506710B040602447D8B6E8F31C7303B /* Headers */ = {
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B7CA61785F9E757C43CCEDFB94A372 /* NicooNetwork-umbrella.h in Headers */,
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+		4C07238C72507F0A17EFD02240ACFAAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+				4C6A004D1F8D30BFC7B8297CB6CDFEBE /* YYCache-umbrella.h in Headers */,
+				0E52D41C73AA1E1BCA9921B7B615889A /* YYCache.h in Headers */,
+				F8B59DD007DF9A4665ECBE133B7604AC /* YYDiskCache.h in Headers */,
+				BF2CC708BF5D2F307570D7A49691C29B /* YYKVStorage.h in Headers */,
+				3D0DCB8F40F85D137601B55DA5482172 /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD0A1066958CBDF4E32FE6058DA3521D /* Headers */ = {
+		700CF0C306E6536EE2314119049618B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1BACB500ACD49E595F864E54CA8B638 /* Pods-NicooNetwork_Tests-umbrella.h in Headers */,
+				7A9663DF6F16076C7AEA4EF9B9B7780E /* Pods-NicooNetwork_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D015B3F3E2F85391AA3B395B5B1ADCE5 /* Headers */ = {
+		A0672E4B8E30EA2B9E824D729824FFFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */,
-				D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */,
+				4228EA069538DD40CD3ABE26985BAB1B /* MBProgressHUD-umbrella.h in Headers */,
+				2C568D4824B4DB3A642A05EAEE6F1587 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2BF622A0C1AEA8520FC199B1028C922 /* Headers */ = {
+		C62FADCA203D747182286A115D898BAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5F8FB686F62042D0AC64457ED6911E /* Pods-NicooNetwork_Example-umbrella.h in Headers */,
+				1C140A9C9A66C2EA280B239939A21FEB /* NicooNetwork-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32CBA0D2B34AFA31313BC6574C6FFD3A /* YYCache */ = {
+		50123C0D9CBE46DB88A00291CDFADB60 /* NicooNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9EA1022D9C44442B55B4B7170E9C02C /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = B3916BC94FB6F179016AC96D78BA34C0 /* Build configuration list for PBXNativeTarget "NicooNetwork" */;
 			buildPhases = (
-				50C4557D6AE05F0D689F7179AB799F62 /* Sources */,
-				C3EE374567E156D92569D3613D3E449B /* Frameworks */,
-				084F84165FDC1256FF202269A3988B5D /* Headers */,
+				C62FADCA203D747182286A115D898BAC /* Headers */,
+				E4DB387762F5218F475C7B3CE46C30FD /* Sources */,
+				4297653025564BF9EF6F34F9E842ABBB /* Frameworks */,
+				EB8EA71F3713474BFD8A24B429F5B5B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C57625B0418D986D8C1F968FAF1B0EAD /* PBXTargetDependency */,
+				D00D6434A43040A45BEE9D460855BB79 /* PBXTargetDependency */,
 			);
-			name = YYCache;
-			productName = YYCache;
-			productReference = 97F242D5D08D961DC066FCCBD6A40E3B /* YYCache.framework */;
+			name = NicooNetwork;
+			productName = NicooNetwork;
+			productReference = 1CA42C8A435443DD544CDFAAE0D6B222 /* NicooNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		351AEB575F68073EF3D289832DA90019 /* Pods-NicooNetwork_Tests */ = {
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BCA8A9167BF0FFF695C21A60A172593 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Tests" */;
+			buildConfigurationList = 89D45252971E089433B1166F8845E03D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				7BEC740C1E9227F1279C18AA30AFCE9E /* Sources */,
-				02F38AFBC6DF3FCE0CF901027C649574 /* Frameworks */,
-				CD0A1066958CBDF4E32FE6058DA3521D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A928B097D23D3C32AEC2AB003C42010 /* PBXTargetDependency */,
-			);
-			name = "Pods-NicooNetwork_Tests";
-			productName = "Pods-NicooNetwork_Tests";
-			productReference = C8999A45C1943BC36AEF6E70B8BB0AAD /* Pods_NicooNetwork_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		630B9C42E03EE8A24037A5E59AFB1925 /* Pods-NicooNetwork_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A80C21E3BC72BA2DF469CE7A93F94F0 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Example" */;
-			buildPhases = (
-				DEE6B7485E9268D6B4E6DB4E46E4E77E /* Sources */,
-				1544733BB25F9F7EBA91A70E58CBF57E /* Frameworks */,
-				F2BF622A0C1AEA8520FC199B1028C922 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				053F590FE5D8B65FAB920377EEA75FE2 /* PBXTargetDependency */,
-				D6178CE19AE9AFD63D0D7F37ADA73054 /* PBXTargetDependency */,
-				82C191323E18970BD36E546C4B1CC1DD /* PBXTargetDependency */,
-				E67E7566BDDE6484939A8072BFA7E158 /* PBXTargetDependency */,
-			);
-			name = "Pods-NicooNetwork_Example";
-			productName = "Pods-NicooNetwork_Example";
-			productReference = 2E7D6D645F50D2E43CD8DE0D1F04E1D3 /* Pods_NicooNetwork_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28A1BDB3CE3F2F1CB0931DFEEDBA7936 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
-			buildPhases = (
-				5D9F4A386169F298C8544D099324BB28 /* Sources */,
-				9FE6CEF1763E05FB90653801CE3E2B5B /* Frameworks */,
-				D015B3F3E2F85391AA3B395B5B1ADCE5 /* Headers */,
+				A0672E4B8E30EA2B9E824D729824FFFC /* Headers */,
+				1AC789491EB84CC776E585E2DA053892 /* Sources */,
+				A76F3841CE069595D76892819F591F6C /* Frameworks */,
+				0BD01ACB64DC0F80B80B9D4FD04DF4E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -746,16 +712,76 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 1FBE841F421CC2865E9139AC0BDCF17F /* MBProgressHUD.framework */;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+		9F0764AA4C3054A1A3CFA2986E03B20B /* Pods-NicooNetwork_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = FE9512BAD419AF3EA2A46DF917230C1A /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Example" */;
 			buildPhases = (
-				32B9974868188C4803318E36329C87FE /* Sources */,
-				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
-				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+				700CF0C306E6536EE2314119049618B2 /* Headers */,
+				E9CA8EF31B6AB04268A6A6F14D35993D /* Sources */,
+				50223806C53ACCB37083327575C6FF65 /* Frameworks */,
+				C72F949CB2495776E956778E8D39220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978CF26EDEDA918C62ECD5C67341C687 /* PBXTargetDependency */,
+				59F4AF334A3D2800EA4BA13C98FA6312 /* PBXTargetDependency */,
+				558AB8307CD9F3133F5C52D4B4D6351D /* PBXTargetDependency */,
+				699E1716699B0BB34ABC13E8C61A1F19 /* PBXTargetDependency */,
+			);
+			name = "Pods-NicooNetwork_Example";
+			productName = "Pods-NicooNetwork_Example";
+			productReference = AE6B62939EC1F2B4FDDF7B75A94D655D /* Pods_NicooNetwork_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A316DFA4055FA1038F433B220A1A1B1A /* Pods-NicooNetwork_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D133D19685632BF9401AD37FCCCEC43 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Tests" */;
+			buildPhases = (
+				0428D762333257C8326421D6C9D0500E /* Headers */,
+				FB1A55819970B58DF858FA45FE355FF7 /* Sources */,
+				95E302129EE635A833F0B6FD19A5E818 /* Frameworks */,
+				4392CF42120B15730DF9B18270CB6984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B5620ABD59D0582189506BDE5BD898 /* PBXTargetDependency */,
+			);
+			name = "Pods-NicooNetwork_Tests";
+			productName = "Pods-NicooNetwork_Tests";
+			productReference = 22120DC34A918D47947DCC506182C1D1 /* Pods_NicooNetwork_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5C365805FDE13D3CC0797A24DF0AE1 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildPhases = (
+				4C07238C72507F0A17EFD02240ACFAAD /* Headers */,
+				65A1FE4C3C1E11164AEE848CB1B4D922 /* Sources */,
+				EB28B3DF405DF1784B357EECF2266049 /* Frameworks */,
+				BA6E33A67100E519F70B1A8915D9B893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYCache;
+			productName = YYCache;
+			productReference = 48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -763,292 +789,220 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = C3173F4CA96B80C7D4BADE0C44A40343 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8CF46E2E0BCC4D3F4C96F37A45D01AF2 /* NicooNetwork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2630429A360EB3CDDE1E17B148760742 /* Build configuration list for PBXNativeTarget "NicooNetwork" */;
-			buildPhases = (
-				61340731CF07078EFCAA215748B85A20 /* Sources */,
-				A417769344F3CBA901F9611FB3654B01 /* Frameworks */,
-				1506710B040602447D8B6E8F31C7303B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				852FC3D0A336A46C3F79E7F7D00FFD6D /* PBXTargetDependency */,
-				C22B072C48DDF97B4B0F492E4B7F0C2C /* PBXTargetDependency */,
-			);
-			name = NicooNetwork;
-			productName = NicooNetwork;
-			productReference = A181EAF80551E42E5488870D0316B568 /* NicooNetwork.framework */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A233A856F2B2EE3C52099813E15EFC5F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6C2DD74728B5B81B6E1A0D5FFEF83253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */,
-				8CF46E2E0BCC4D3F4C96F37A45D01AF2 /* NicooNetwork */,
-				630B9C42E03EE8A24037A5E59AFB1925 /* Pods-NicooNetwork_Example */,
-				351AEB575F68073EF3D289832DA90019 /* Pods-NicooNetwork_Tests */,
-				32CBA0D2B34AFA31313BC6574C6FFD3A /* YYCache */,
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				50123C0D9CBE46DB88A00291CDFADB60 /* NicooNetwork */,
+				9F0764AA4C3054A1A3CFA2986E03B20B /* Pods-NicooNetwork_Example */,
+				A316DFA4055FA1038F433B220A1A1B1A /* Pods-NicooNetwork_Tests */,
+				CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0BD01ACB64DC0F80B80B9D4FD04DF4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4392CF42120B15730DF9B18270CB6984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6E33A67100E519F70B1A8915D9B893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72F949CB2495776E956778E8D39220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8EA71F3713474BFD8A24B429F5B5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		32B9974868188C4803318E36329C87FE /* Sources */ = {
+		1AC789491EB84CC776E585E2DA053892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
-				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
-				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
-				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
-				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
-				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
-				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
-				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
-				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
-				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
-				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
-				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
-				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
-				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
-				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
-				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
-				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
-				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+				95F63E693F9F4900BE8D25A2B20C17EF /* MBProgressHUD-dummy.m in Sources */,
+				6E1E402CB13DFE722897DA3E77DEBD51 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50C4557D6AE05F0D689F7179AB799F62 /* Sources */ = {
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A266AF10A00DC592762445ED4FA21E9A /* YYCache-dummy.m in Sources */,
-				94AACBEE54B3A04B08B7407F6B0EB008 /* YYCache.m in Sources */,
-				26EB6EE7BFBC56231AB5BDFBEFD3A92A /* YYDiskCache.m in Sources */,
-				A63305C6BB49C7B481B561DCC2797B0B /* YYKVStorage.m in Sources */,
-				29B1CAE2E425ED7DD84E3DFE1F6CEE00 /* YYMemoryCache.m in Sources */,
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D9F4A386169F298C8544D099324BB28 /* Sources */ = {
+		65A1FE4C3C1E11164AEE848CB1B4D922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */,
-				AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */,
+				F256B8DD4AA1773E0BBB13701AC1A8AE /* YYCache-dummy.m in Sources */,
+				AD67ADE6CAFBFDDFB0511681F227E6AC /* YYCache.m in Sources */,
+				499D77538FD5D5BB8B06EDCD325B72C4 /* YYDiskCache.m in Sources */,
+				21603D7372E4A29D429CE38AC413FBA7 /* YYKVStorage.m in Sources */,
+				654E109DBE643D30CA540CB991C2446E /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61340731CF07078EFCAA215748B85A20 /* Sources */ = {
+		E4DB387762F5218F475C7B3CE46C30FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67AE30C0965C3D4043194A285EF5249D /* NicooAPIManagerDataReformProtocol.swift in Sources */,
-				93140F171F2C7223485A329789E2ED7D /* NicooAPIManagerInterceptorProtocol.swift in Sources */,
-				61C3501D39AC6850F1528D36FCEA7F1B /* NicooAPIManagerProtocol.swift in Sources */,
-				17F15FB0FDEEB1C5F880B26F8DAC5BD6 /* NicooAPIManagerValidatorDelegate.swift in Sources */,
-				588746856C55EA4A8EB16F7DA410CE57 /* NicooAPIProxy.swift in Sources */,
-				F29DBF6ACFB839E8633CD81485454CF8 /* NicooBaseAPIBaseManager.swift in Sources */,
-				B5C5DFF92980628E50C82C5A4FA1E652 /* NicooCacheItem.swift in Sources */,
-				2C93AE6E410A1AF22F0CE5A3DD599431 /* NicooCacheTool.swift in Sources */,
-				797B3C6631F617C2D5E24DC81F1743B5 /* NicooNetwork-dummy.m in Sources */,
-				842D6859458A5966F044E8C65BF248C4 /* NicooNetworkingConfigurationManager.swift in Sources */,
-				7D7CAE7ED63D437A122825549D4F25E9 /* NicooNetworkManager.swift in Sources */,
-				1CFFFFF053C51CB1242CA745C00F52BB /* NicooRequestGenerator.swift in Sources */,
-				9A43775BDFDE8F8AF6814707B1AA9CC4 /* NicooService.swift in Sources */,
-				218D28D12CC11BBB5EC567DDA8FEAB79 /* NicooServiceFactory.swift in Sources */,
-				1D3311B18D2A83440AD2FBC683578BF0 /* NicooURLResponse.swift in Sources */,
+				4BBA51EF9F37978F6C25335D1E57A512 /* NicooAPIManagerDataReformProtocol.swift in Sources */,
+				6140EC21C0A99DF968D4FC24AD947214 /* NicooAPIManagerInterceptorProtocol.swift in Sources */,
+				50F4B1F6150E205D8F8E43A0DA59AEE4 /* NicooAPIManagerProtocol.swift in Sources */,
+				AB0FF807BF40205CB44077AF76305DB9 /* NicooAPIManagerValidatorDelegate.swift in Sources */,
+				C4FF3697E145269ECB18E3B328AB5212 /* NicooAPIProxy.swift in Sources */,
+				BB65E73A3D4E545242AB2CA25AF44698 /* NicooBaseAPIBaseManager.swift in Sources */,
+				77B7706399D46C2039A5C9A425CE4C4C /* NicooCacheItem.swift in Sources */,
+				64AD5C6384E71B28E5B8262A017F60CC /* NicooCacheTool.swift in Sources */,
+				A0C547BCE877AAE21B782622C90EEF42 /* NicooNetwork-dummy.m in Sources */,
+				FED73AFB0BC226A03B5B715EDD97E9C2 /* NicooNetworkingConfigurationManager.swift in Sources */,
+				50A2F2026E31F23E42F5634D9595B555 /* NicooNetworkManager.swift in Sources */,
+				9DC4A84330BDEB3994FDB6E8A14C5924 /* NicooRequestGenerator.swift in Sources */,
+				FD8FCDE47E69ABB20AB6CF11562CB48B /* NicooService.swift in Sources */,
+				ACD704935E4B7157CC41A6D89F3E3F54 /* NicooServiceFactory.swift in Sources */,
+				FE386E0C8E2DF6D5774B48180AAA3345 /* NicooURLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BEC740C1E9227F1279C18AA30AFCE9E /* Sources */ = {
+		E9CA8EF31B6AB04268A6A6F14D35993D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2816B08D8287B8EAA6AD7E0596436F4D /* Pods-NicooNetwork_Tests-dummy.m in Sources */,
+				D84FE4BF4A06FB1D452B08EE66FDAB45 /* Pods-NicooNetwork_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE6B7485E9268D6B4E6DB4E46E4E77E /* Sources */ = {
+		FB1A55819970B58DF858FA45FE355FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143FA8BE3178A4AFCC5B7F4013CE5737 /* Pods-NicooNetwork_Example-dummy.m in Sources */,
+				888BD3E757F92FC138E65026A74821A2 /* Pods-NicooNetwork_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		053F590FE5D8B65FAB920377EEA75FE2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = F6A332B9909C713F9DD344F792F9E444 /* PBXContainerItemProxy */;
-		};
-		2A928B097D23D3C32AEC2AB003C42010 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NicooNetwork_Example";
-			target = 630B9C42E03EE8A24037A5E59AFB1925 /* Pods-NicooNetwork_Example */;
-			targetProxy = 827AC81A65EBB3745247B7B071818450 /* PBXContainerItemProxy */;
-		};
-		82C191323E18970BD36E546C4B1CC1DD /* PBXTargetDependency */ = {
+		558AB8307CD9F3133F5C52D4B4D6351D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NicooNetwork;
-			target = 8CF46E2E0BCC4D3F4C96F37A45D01AF2 /* NicooNetwork */;
-			targetProxy = 374CE790724F59CB582E9519B5739E09 /* PBXContainerItemProxy */;
+			target = 50123C0D9CBE46DB88A00291CDFADB60 /* NicooNetwork */;
+			targetProxy = 56F97FCB6C70792E6B4CB839FABC4ECE /* PBXContainerItemProxy */;
 		};
-		852FC3D0A336A46C3F79E7F7D00FFD6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 677B8DA87D72089245143580ED0FF667 /* PBXContainerItemProxy */;
-		};
-		C22B072C48DDF97B4B0F492E4B7F0C2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = 32CBA0D2B34AFA31313BC6574C6FFD3A /* YYCache */;
-			targetProxy = 933998F5B46D2A2E08DD88F958C30690 /* PBXContainerItemProxy */;
-		};
-		D6178CE19AE9AFD63D0D7F37ADA73054 /* PBXTargetDependency */ = {
+		59F4AF334A3D2800EA4BA13C98FA6312 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
-			targetProxy = 4B77E6FC675BDA430ACEE4CEBB9E6573 /* PBXContainerItemProxy */;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 48B59DA48237477A64A916C01C11034B /* PBXContainerItemProxy */;
 		};
-		E67E7566BDDE6484939A8072BFA7E158 /* PBXTargetDependency */ = {
+		699E1716699B0BB34ABC13E8C61A1F19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYCache;
-			target = 32CBA0D2B34AFA31313BC6574C6FFD3A /* YYCache */;
-			targetProxy = CF0E5EF0CEE51AC3389398A9D998B692 /* PBXContainerItemProxy */;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 295DEF45337617A50D14E4BD4B75F345 /* PBXContainerItemProxy */;
+		};
+		978CF26EDEDA918C62ECD5C67341C687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = C5C9958F32881A376050734E4B4E047C /* PBXContainerItemProxy */;
+		};
+		B3B5620ABD59D0582189506BDE5BD898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NicooNetwork_Example";
+			target = 9F0764AA4C3054A1A3CFA2986E03B20B /* Pods-NicooNetwork_Example */;
+			targetProxy = F92407663890284510DB8659CDD93DE5 /* PBXContainerItemProxy */;
+		};
+		C57625B0418D986D8C1F968FAF1B0EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 428065580E6A7F53AC818C7358E2EE94 /* PBXContainerItemProxy */;
+		};
+		D00D6434A43040A45BEE9D460855BB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = A13B6355CF1FE4E98A9A9BC8C8279D82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		351C34C8A48A1502E5997B7C13DC3237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD7F4CC973E904A1A7B96D14748E7F73 /* YYCache.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C8A2074652E22EFE94A5575D7CC307C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80E2CC4F371C7E2259CCD511A5DF64C4 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D4AE0A2C7236474434CD487AD8DAC11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 440873C090D816BA92C80D022EBC213E /* Pods-NicooNetwork_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1080,8 +1034,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1101,19 +1053,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		97FBC44559B99BCEDC711F7405A36CC1 /* Debug */ = {
+		2131C325BBAA3C54C1D0393F6FC9C800 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80E2CC4F371C7E2259CCD511A5DF64C4 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = BA6613CC9186360E5326AC3086B6FE8E /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1125,7 +1080,202 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3669810687643384B23CB33194CA3992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BFF6168CF65FAC6CA5AC315813309A /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50DCA97B157FA25776493A493FF40E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E5273307DD32B22F3FBCC846077755 /* Pods-NicooNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Pods-NicooNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Pods-NicooNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F148AC4EC65CADC7261301460336A152 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83859F9E1273FCD68C1861D2460AE5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BFF6168CF65FAC6CA5AC315813309A /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98CDFFD76DF6E91C73611E1E087E9C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C0830B2A8473653D65E6A490C07A6F /* Pods-NicooNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABDB8842EFC2761F8B105793B3F4A11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6613CC9186360E5326AC3086B6FE8E /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1142,73 +1292,7 @@
 			};
 			name = Debug;
 		};
-		A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A025A3A6BA40560CAAED74C831F277E /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A99D6B21859DAE3BB5176DA2C9B08C56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B74A1F51FCEE417D052016DCFCB6A4B5 /* Pods-NicooNetwork_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Pods-NicooNetwork_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1240,8 +1324,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1258,18 +1340,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D6275521C3F646E57270D9EDC3C826DD /* Debug */ = {
+		B4142006B8E80971425AA5F56E4213D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD7F4CC973E904A1A7B96D14748E7F73 /* YYCache.xcconfig */;
+			baseConfigurationReference = 05410408A0B07CCFDF723149F82189A8 /* NicooNetwork.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1279,29 +1366,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooNetwork/NicooNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooNetwork/NicooNetwork-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
+				MODULEMAP_FILE = "Target Support Files/NicooNetwork/NicooNetwork.modulemap";
+				PRODUCT_MODULE_NAME = NicooNetwork;
+				PRODUCT_NAME = NicooNetwork;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D9901D08C7D95ED17D2D0C7BF2AEFA4F /* Release */ = {
+		CD74C3970BC49928EF4263ADA2FE4F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5769378A24454A47197B5DED0B4279B6 /* Pods-NicooNetwork_Tests.release.xcconfig */;
+			baseConfigurationReference = 255CD29E3DD34177386117687524BB65 /* Pods-NicooNetwork_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1311,9 +1399,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Pods-NicooNetwork_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Tests/Pods-NicooNetwork_Tests.modulemap";
@@ -1325,15 +1413,82 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFCFD5FDE8EBF715F085F92C79ED0DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A661916CBBBD2F06D82DB9FE28131238 /* Pods-NicooNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
+		ED966871194DF415D875F1F65821F07B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A025A3A6BA40560CAAED74C831F277E /* Alamofire.xcconfig */;
+			baseConfigurationReference = 05410408A0B07CCFDF723149F82189A8 /* NicooNetwork.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooNetwork/NicooNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooNetwork/NicooNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooNetwork/NicooNetwork.modulemap";
+				PRODUCT_MODULE_NAME = NicooNetwork;
+				PRODUCT_NAME = NicooNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F148AC4EC65CADC7261301460336A152 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1345,7 +1500,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1355,40 +1510,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED4BD0D88978AAA7C2C21BDF5809AF5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4964CEE804D06B72395C64AE73D5BC /* NicooNetwork.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NicooNetwork/NicooNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NicooNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NicooNetwork/NicooNetwork.modulemap";
-				PRODUCT_MODULE_NAME = NicooNetwork;
-				PRODUCT_NAME = NicooNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1396,140 +1518,73 @@
 			};
 			name = Release;
 		};
-		ED7D8F6A88FF70F095583846B754C786 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E062424D8964F5FDE9CBB528DD7C2971 /* Pods-NicooNetwork_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NicooNetwork_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NicooNetwork_Example/Pods-NicooNetwork_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF996E398F552842EE0DAE30FEAAEAD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A4964CEE804D06B72395C64AE73D5BC /* NicooNetwork.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NicooNetwork/NicooNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NicooNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NicooNetwork/NicooNetwork.modulemap";
-				PRODUCT_MODULE_NAME = NicooNetwork;
-				PRODUCT_NAME = NicooNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2630429A360EB3CDDE1E17B148760742 /* Build configuration list for PBXNativeTarget "NicooNetwork" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF996E398F552842EE0DAE30FEAAEAD7 /* Debug */,
-				ED4BD0D88978AAA7C2C21BDF5809AF5E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28A1BDB3CE3F2F1CB0931DFEEDBA7936 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		6D133D19685632BF9401AD37FCCCEC43 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97FBC44559B99BCEDC711F7405A36CC1 /* Debug */,
-				7C8A2074652E22EFE94A5575D7CC307C /* Release */,
+				CD74C3970BC49928EF4263ADA2FE4F4A /* Debug */,
+				50DCA97B157FA25776493A493FF40E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		89D45252971E089433B1166F8845E03D /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				ABDB8842EFC2761F8B105793B3F4A11C /* Debug */,
+				2131C325BBAA3C54C1D0393F6FC9C800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		9F5C365805FDE13D3CC0797A24DF0AE1 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA0ADC75B20BB62958101306980460E6 /* Debug */,
-				A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */,
+				83859F9E1273FCD68C1861D2460AE5BA /* Debug */,
+				3669810687643384B23CB33194CA3992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A80C21E3BC72BA2DF469CE7A93F94F0 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Example" */ = {
+		B3916BC94FB6F179016AC96D78BA34C0 /* Build configuration list for PBXNativeTarget "NicooNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7D8F6A88FF70F095583846B754C786 /* Debug */,
-				7D4AE0A2C7236474434CD487AD8DAC11 /* Release */,
+				B4142006B8E80971425AA5F56E4213D0 /* Debug */,
+				ED966871194DF415D875F1F65821F07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BCA8A9167BF0FFF695C21A60A172593 /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Tests" */ = {
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99D6B21859DAE3BB5176DA2C9B08C56 /* Debug */,
-				D9901D08C7D95ED17D2D0C7BF2AEFA4F /* Release */,
+				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
+				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9EA1022D9C44442B55B4B7170E9C02C /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		FE9512BAD419AF3EA2A46DF917230C1A /* Build configuration list for PBXNativeTarget "Pods-NicooNetwork_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6275521C3F646E57270D9EDC3C826DD /* Debug */,
-				351C34C8A48A1502E5997B7C13DC3237 /* Release */,
+				98CDFFD76DF6E91C73611E1E087E9C69 /* Debug */,
+				DFCFD5FDE8EBF715F085F92C79ED0DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
